@@ -1,0 +1,116 @@
+[
+    {
+        "id" : 0,
+        "firstname": {
+            "kana" : "アヤネ",
+            "english" : "ayane"
+        },
+        "familyname" : {
+            "kana" : "オクソラ",
+            "kanji" : "奥空"
+        },
+        "school" : "アビドス",
+        "club" : "対策委員会",
+        "year" : 1,
+        "age" : 15,
+        "height" : 153,
+        "weaponType" : "HG",
+        "uniqueWeapon" : "コモンセンス",
+        "isPlayable" : true
+    },
+    {
+        "id" : 1,
+        "firstname": {
+            "kana" : "ホシノ",
+            "english" : "hoshino"
+        },
+        "familyname" : {
+            "kana" : "タカナシ",
+            "kanji" : "小鳥遊"
+        },
+        "school" : "アビドス",
+        "club" : "対策委員会",
+        "year" : 3,
+        "age" : 17,
+        "height" : 145,
+        "weaponType" : "SG",
+        "uniqueWeapon" : "EyeofHorus",
+        "isPlayable" : true
+    },
+    {
+        "id" : 2,
+        "firstname": {
+            "kana" : "シロコ",
+            "english" : "shiroko"
+        },
+        "familyname" : {
+            "kana" : "スナオオカミ",
+            "kanji" : "砂狼"
+        },
+        "school" : "アビドス",
+        "club" : "対策委員会",
+        "year" : 2,
+        "age" : 16,
+        "height" : 156,
+        "weaponType" : "AR",
+        "uniqueWeapon" : "WHITEFANG465",
+        "isPlayable" : true
+    },
+    {
+        "id" : 3,
+        "firstname": {
+            "kana" : "ノノミ",
+            "english" : "nonomi"
+        },
+        "familyname" : {
+            "kana" : "イザヨイ",
+            "kanji" : "十六夜"
+        },
+        "school" : "アビドス",
+        "club" : "対策委員会",
+        "year" : 2,
+        "age" : 16,
+        "height" : 160,
+        "weaponType" : "MG",
+        "uniqueWeapon" : "リトルマシンガンV",
+        "isPlayable" : true
+    },
+    {
+        "id" : 4,
+        "firstname": {
+            "kana" : "セリカ",
+            "english" : "serika"
+        },
+        "familyname" : {
+            "kana" : "クロミ",
+            "kanji" : "黒見"
+        },
+        "school" : "アビドス",
+        "club" : "対策委員会",
+        "year" : 1,
+        "age" : 15,
+        "height" : 153,
+        "weaponType" : "AR",
+        "uniqueWeapon" : "シンシアリティ",
+        "isPlayable" : true
+    },
+    {
+        "id" : 5,
+        "firstname": {
+            "kana" : "ヒフミ",
+            "english" : "hifumi"
+        },
+        "familyname" : {
+            "kana" : "アジタニ",
+            "kanji" : "阿慈谷"
+        },
+        "school" : "トリニティ",
+        "club" : "補習授業部",
+        "year" : 2,
+        "age" : 16,
+        "height" : 158,
+        "weaponType" : "AR",
+        "uniqueWeapon" : "マイ・ネセシティ",
+        "isPlayable" : true
+    }
+]
