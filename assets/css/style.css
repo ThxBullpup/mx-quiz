@@ -12,8 +12,14 @@ body {
 
 .heading{
     text-align: center;
-    font-size: 400%;
+    font-size: 300%;
 }
+
+.faceAndName{
+    text-align: center;
+    vertical-align: middle;
+}
+
 .menu{
     font-family: "kosugimaru";
     text-align: center;
