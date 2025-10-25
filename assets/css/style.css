@@ -1,11 +1,27 @@
 @charset "utf-8";
 @font-face {
-    font-family: "Kosugimaru";
+    font-family: "kosugimaru";
     src: url(../font/KosugiMaru-Regular.ttf) format("truetype");
 }
 body {
-    font-family: "Kosugimaru";
+    font-family: "kosugimaru";
     min-height: 100vh;
-    background: linear-gradient(135deg,#00d7fb, white); /*グラデーション*/
+    background: linear-gradient(135deg,#1288f8,#00d7fb, white); /*ブルアカっぽいグラデーション*/
     background-repeat: no-repeat;
+}
+
+.heading{
+    text-align: center;
+    font-size: 400%;
+}
+.menu{
+    font-family: "kosugimaru";
+    text-align: center;
+    vertical-align: middle;
+}
+.button{
+    font-family: "kosugimaru";
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: large;
 }
