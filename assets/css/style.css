@@ -1,0 +1,11 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Kosugimaru";
+    src: url(../font/KosugiMaru-Regular.ttf) format("truetype");
+}
+body {
+    font-family: "Kosugimaru";
+    min-height: 100vh;
+    background: linear-gradient(135deg,#00d7fb, white); /*グラデーション*/
+    background-repeat: no-repeat;
+}
