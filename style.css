@@ -1,0 +1,5 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg,#00d7fb, white); /*グラデーション*/
+    background-repeat: no-repeat; /*繰り返さない*/
+}
