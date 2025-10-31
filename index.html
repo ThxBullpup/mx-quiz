@@ -9,17 +9,28 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="quiz">
-        <h1 class="heading">BlueArchive <br>苗字クイズ</h1>
-        <div hidden class="faceAndName">
+    <h1 class="heading">BlueArchive <br>苗字クイズ</h1>
+
+    <div id="studentFilter" style="display: block;">
+        <form id="school" action="#" method="school">
+            <!-- ここに学校名の入ったチェックボックスを生成 -->
+        </form>
+    </div>
+
+    <div id="quiz" style="display: none;">
+        <div class="faceAndName">
             <div id="firstName">ペロロさま</div>
             <img id="faceImage" src="./assets/images/9999-peroro.webp" alt="顔写真">
         </div>
-        <div class="menu">
-            <button class="button" id="start">スタート</button>
-        </div>
     </div>
+
 
     <script src="./assets/js/quizgame.js"></script>
 </body>
 </html>
+
+
+<!-- memo -->
+        <!-- <div class="menu">
+            <button class="button" id="start">スタート</button>
+        </div> -->

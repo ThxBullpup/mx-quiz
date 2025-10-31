@@ -7,6 +7,38 @@ async function loadStudent(){
     allCharacters = await response.json();
 }
 
+//htmlの読み込み時にフィルターを生成する関数
+async function filterGenerate(){
+    const schools = [
+        "アビドス",
+        "ゲヘナ",
+        "トリニティ",
+        "ミレニアム",
+        "百鬼夜行",
+        "山海経",
+        "レッドウィンター",
+        "ヴァルキューレ",
+        "SRT",
+        "ハイランダー",
+        "ワイルドハント",
+        "クロノス",
+        "連邦生徒会",
+        "不明"
+    ]
+
+    const container = document.getElementById('school');
+    schools.forEach(schoolName => {
+        const htmlContent =`
+            <label>
+                <input type="checkbox" name="school" value="${schoolName}">
+                ${schoolName}
+            </label>
+            <br>
+        `
+        container.innerHTML += htmlContent;
+    })
+}
+
 //出題される生徒を選ぶ
 function chooseStudent(){
     choice = Math.floor(Math.random() * allCharacters.length);
@@ -22,7 +54,8 @@ function chooseStudent(){
 //ロード完了時に生徒名簿を読み込む
 document.addEventListener("DOMContentLoaded", async() => {
     await loadStudent();
+    await filterGenerate();
 })
 
-//ボタンが押されたら生徒を選ぶ関数へ
-document.querySelector("#start").addEventListener("click",chooseStudent);
+// //ボタンが押されたら生徒を選ぶ関数へ
+// document.querySelector("#start").addEventListener("click",chooseStudent);
