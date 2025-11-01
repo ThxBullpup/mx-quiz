@@ -112,5 +112,24 @@
         "weaponType" : "AR",
         "uniqueWeapon" : "マイ・ネセシティ",
         "isPlayable" : true
+    },
+    {
+        "id" : 6,
+        "firstname": {
+            "kana" : "ユメ",
+            "english" : "yume"
+        },
+        "familyname" : {
+            "kana" : "クチナシ",
+            "kanji" : "梔子"
+        },
+        "school" : "アビドス",
+        "club" : "アビドス生徒会",
+        "year" : null,
+        "age" : null,
+        "height" : null,
+        "weaponType" : null,
+        "uniqueWeapon" : null,
+        "isPlayable" : false
     }
 ]
