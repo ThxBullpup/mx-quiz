@@ -20,11 +20,18 @@ body {
     vertical-align: middle;
 }
 
-.menu{
+#studentFilter{
     font-family: "kosugimaru";
     text-align: center;
     vertical-align: middle;
 }
+
+#quiz{
+    font-family: "kosugimaru";
+    text-align: center;
+    vertical-align: middle;
+}
+
 .button{
     font-family: "kosugimaru";
     padding: 10px 20px;
