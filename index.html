@@ -1,36 +1,42 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang='ja'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>BlueArchive苗字クイズ</title>
-    <meta name="description" content="ブルーアーカイブに登場するキャラクターの苗字を当てるクイズ">
-    <link rel="stylesheet" href="./assets/css/sanitize.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name='description' content='ブルーアーカイブに登場するキャラクターの苗字を当てるクイズ'>
+    <link rel='stylesheet' href='./assets/css/sanitize.css'>
+    <link rel='stylesheet' href='./assets/css/style.css'>
 </head>
 <body>
-    <h1 class="heading">BlueArchive <br>苗字クイズ</h1>
+    <h1 class='heading'>BlueArchive <br>苗字クイズ</h1>
 
-    <div id="studentFilter" style="display: block;">
-        <form id="school" action="#" method="school">
+    <div id='studentFilter' style='display: block;'>
+        <form id='school' action='#' method='school'>
             <!-- ここに学校名の入ったチェックボックスを生成 -->
         </form>
-    </div>
-
-    <div id="quiz" style="display: none;">
-        <div class="faceAndName">
-            <div id="firstName">ペロロさま</div>
-            <img id="faceImage" src="./assets/images/9999-peroro.webp" alt="顔写真">
+        <div class='menu'>
+            <button class='button' id='start'>スタート</button>
         </div>
     </div>
 
+    <div id='quiz' style='display: none;'>
+        <h1 id="questionCounter"></h1>
+        <div class='faceAndName'>
+            <div id='firstName'>ペロロさま</div>
+            <img id='faceImage' src='./assets/images/9999-peroro.webp' alt='顔写真'>
+            <input type='text' name='userAnswer' id='userAnswer'>
+            <button id='answerSend'>解答</button>
+        </div>
+    </div>
 
-    <script src="./assets/js/quizgame.js"></script>
+    <div id='result' style='display: none;'>
+    </div>
+
+
+    <script src='./assets/js/quizgame.js'></script>
 </body>
 </html>
 
 
 <!-- memo -->
-        <!-- <div class="menu">
-            <button class="button" id="start">スタート</button>
-        </div> -->
