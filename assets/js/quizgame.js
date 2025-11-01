@@ -96,6 +96,11 @@ function displayQuestion(){
     const firstNameElement = document.getElementById('firstName');
     const faceImageElement = document.getElementById('faceImage');
     firstNameElement.textContent = MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.kana
+    // 読み込み失敗時ペロロを表示
+    faceImageElement.onerror = function() {
+        this.onerror = null;
+        this.src = './assets/images/9999-peroro.webp';
+    }
     faceImageElement.src = faceImageAddress;
 }
 
