@@ -80,7 +80,7 @@ function checkAnswer(){
         displayQuestion();
     }else{
         console.log('result');
-        result();
+        transitionResult();
     }
 
 }
@@ -107,6 +107,26 @@ function transitionQuiz(){
     displayQuestion();
     document.querySelector('#answerSend').addEventListener('click',checkAnswer);
 
+}
+
+// タイトル画面に戻る
+function transitionTitle(){
+    document.getElementById('studentFilter').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none';
+    document.getElementById('result').style.display = 'none';
+    // 変数を初期化
+    MXQuiz.choiceStudents = []
+    MXQuiz.currentQuestion = 0
+    MXQuiz.score = 0
+}
+
+// 結果画面に推移する
+function transitionResult(){
+    document.getElementById('studentFilter').style.display = 'none';
+    document.getElementById('quiz').style.display = 'none';
+    document.getElementById('result').style.display = 'block';
+    // はじめの画面に戻るボタン
+    document.querySelector('#repeat').addEventListener('click',transitionTitle());
 }
 
 
