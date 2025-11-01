@@ -32,6 +32,12 @@ body {
     vertical-align: middle;
 }
 
+#result{
+    font-family: "kosugimaru";
+    text-align: center;
+    vertical-align: middle;
+}
+
 .button{
     font-family: "kosugimaru";
     padding: 10px 20px;
