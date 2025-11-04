@@ -30,7 +30,7 @@ async function filterGenerate(){
         'ワイルドハント',
         'クロノス',
         '連邦生徒会',
-        '不明'
+        '不明/無し'
     ]
     // チェックボックスにして表示、改行
     const container = document.getElementById('school');
