@@ -598,7 +598,7 @@
             "kana": "コマカゼ",
             "kanji": "河駒風"
         },
-        "school": null,
+        "school": "不明/無し",
         "club": null,
         "year": null,
         "age": 16,
@@ -1985,7 +1985,7 @@
             "kana": "リュウゲ",
             "kanji": "竜華"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "玄龍門",
         "year": 3,
         "age": 17,
@@ -2004,7 +2004,7 @@
             "kana": "コノエ",
             "kanji": "近衛"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "玄龍門",
         "year": 2,
         "age": 16,
@@ -2023,7 +2023,7 @@
             "kana": "アケシロ",
             "kanji": "朱城"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "玄武商会",
         "year": 3,
         "age": 17,
@@ -2042,7 +2042,7 @@
             "kana": "カヤマ",
             "kanji": "鹿山"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "玄武商会",
         "year": 3,
         "age": 17,
@@ -2061,7 +2061,7 @@
             "kana": "ヤクシ",
             "kanji": "薬子"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "錬丹術研究会",
         "year": 2,
         "age": 16,
@@ -2080,7 +2080,7 @@
             "kana": "スノハラ",
             "kanji": "春原"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "梅花園",
         "year": 3,
         "age": null,
@@ -2099,7 +2099,7 @@
             "kana": "スノハラ",
             "kanji": "春原"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "梅花園",
         "year": 1,
         "age": 11,
@@ -2118,7 +2118,7 @@
             "kana": "ウルシバラ",
             "kanji": "漆原"
         },
-        "school": "山海経高級中学校",
+        "school": "山海経",
         "club": "京劇部",
         "year": null,
         "age": null,
@@ -3087,7 +3087,7 @@
             "kana": "シンタニ",
             "kanji": "申谷"
         },
-        "school": null,
+        "school": "不明/無し",
         "club": null,
         "year": null,
         "age": null,
@@ -3106,7 +3106,7 @@
             "kana": "クリハマ",
             "kanji": "栗浜"
         },
-        "school": null,
+        "school": "不明/無し",
         "club": null,
         "year": null,
         "age": null,
