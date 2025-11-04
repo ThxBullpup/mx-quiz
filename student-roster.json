@@ -1,135 +1,3118 @@
 [
     {
-        "id" : 0,
+        "id": 0,
         "firstname": {
-            "kana" : "アヤネ",
-            "english" : "ayane"
+            "kana": "アヤネ",
+            "english": "Ayane"
         },
-        "familyname" : {
-            "kana" : "オクソラ",
-            "kanji" : "奥空"
+        "familyname": {
+            "kana": "オクソラ",
+            "kanji": "奥空"
         },
-        "school" : "アビドス",
-        "club" : "対策委員会",
-        "year" : 1,
-        "age" : 15,
-        "height" : 153,
-        "weaponType" : "HG",
-        "uniqueWeapon" : "コモンセンス",
-        "isPlayable" : true
+        "school": "アビドス",
+        "club": "対策委員会",
+        "year": 1,
+        "age": 15,
+        "height": 153,
+        "weaponType": "HG",
+        "uniqueWeapon": "コモンセンス",
+        "isPlayable": true
     },
     {
-        "id" : 1,
+        "id": 1,
         "firstname": {
-            "kana" : "ホシノ",
-            "english" : "hoshino"
+            "kana": "ホシノ",
+            "english": "Hoshino"
         },
-        "familyname" : {
-            "kana" : "タカナシ",
-            "kanji" : "小鳥遊"
+        "familyname": {
+            "kana": "タカナシ",
+            "kanji": "小鳥遊"
         },
-        "school" : "アビドス",
-        "club" : "対策委員会",
-        "year" : 3,
-        "age" : 17,
-        "height" : 145,
-        "weaponType" : "SG",
-        "uniqueWeapon" : "EyeofHorus",
-        "isPlayable" : true
+        "school": "アビドス",
+        "club": "対策委員会",
+        "year": 3,
+        "age": 17,
+        "height": 145,
+        "weaponType": "SG",
+        "uniqueWeapon": "EyeofHorus",
+        "isPlayable": true
     },
     {
-        "id" : 2,
+        "id": 2,
         "firstname": {
-            "kana" : "シロコ",
-            "english" : "shiroko"
+            "kana": "シロコ",
+            "english": "Shiroko"
         },
-        "familyname" : {
-            "kana" : "スナオオカミ",
-            "kanji" : "砂狼"
+        "familyname": {
+            "kana": "スナオオカミ",
+            "kanji": "砂狼"
         },
-        "school" : "アビドス",
-        "club" : "対策委員会",
-        "year" : 2,
-        "age" : 16,
-        "height" : 156,
-        "weaponType" : "AR",
-        "uniqueWeapon" : "WHITEFANG465",
-        "isPlayable" : true
+        "school": "アビドス",
+        "club": "対策委員会",
+        "year": 2,
+        "age": 16,
+        "height": 156,
+        "weaponType": "AR",
+        "uniqueWeapon": "WHITEFANG465",
+        "isPlayable": true
     },
     {
-        "id" : 3,
+        "id": 3,
         "firstname": {
-            "kana" : "ノノミ",
-            "english" : "nonomi"
+            "kana": "ノノミ",
+            "english": "Nonomi"
         },
-        "familyname" : {
-            "kana" : "イザヨイ",
-            "kanji" : "十六夜"
+        "familyname": {
+            "kana": "イザヨイ",
+            "kanji": "十六夜"
         },
-        "school" : "アビドス",
-        "club" : "対策委員会",
-        "year" : 2,
-        "age" : 16,
-        "height" : 160,
-        "weaponType" : "MG",
-        "uniqueWeapon" : "リトルマシンガンV",
-        "isPlayable" : true
+        "school": "アビドス",
+        "club": "対策委員会",
+        "year": 2,
+        "age": 16,
+        "height": 160,
+        "weaponType": "MG",
+        "uniqueWeapon": "リトルマシンガンⅤ",
+        "isPlayable": true
     },
     {
-        "id" : 4,
+        "id": 4,
         "firstname": {
-            "kana" : "セリカ",
-            "english" : "serika"
+            "kana": "セリカ",
+            "english": "Serika"
         },
-        "familyname" : {
-            "kana" : "クロミ",
-            "kanji" : "黒見"
+        "familyname": {
+            "kana": "クロミ",
+            "kanji": "黒見"
         },
-        "school" : "アビドス",
-        "club" : "対策委員会",
-        "year" : 1,
-        "age" : 15,
-        "height" : 153,
-        "weaponType" : "AR",
-        "uniqueWeapon" : "シンシアリティ",
-        "isPlayable" : true
+        "school": "アビドス",
+        "club": "対策委員会",
+        "year": 1,
+        "age": 15,
+        "height": 153,
+        "weaponType": "AR",
+        "uniqueWeapon": "シンシアリティ",
+        "isPlayable": true
     },
     {
-        "id" : 5,
+        "id": 5,
         "firstname": {
-            "kana" : "ヒフミ",
-            "english" : "hifumi"
+            "kana": "ユメ",
+            "english": "Yume"
         },
-        "familyname" : {
-            "kana" : "アジタニ",
-            "kanji" : "阿慈谷"
+        "familyname": {
+            "kana": "クチナシ",
+            "kanji": "梔子"
         },
-        "school" : "トリニティ",
-        "club" : "補習授業部",
-        "year" : 2,
-        "age" : 16,
-        "height" : 158,
-        "weaponType" : "AR",
-        "uniqueWeapon" : "マイ・ネセシティ",
-        "isPlayable" : true
+        "school": "アビドス",
+        "club": "アビドス生徒会",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
     },
     {
-        "id" : 6,
+        "id": 6,
         "firstname": {
-            "kana" : "ユメ",
-            "english" : "yume"
+            "kana": "ヒフミ",
+            "english": "Hifumi"
         },
-        "familyname" : {
-            "kana" : "クチナシ",
-            "kanji" : "梔子"
+        "familyname": {
+            "kana": "アジタニ",
+            "kanji": "阿慈谷"
         },
-        "school" : "アビドス",
-        "club" : "アビドス生徒会",
-        "year" : null,
-        "age" : null,
-        "height" : null,
-        "weaponType" : null,
-        "uniqueWeapon" : null,
-        "isPlayable" : false
+        "school": "トリニティ",
+        "club": "補習授業部",
+        "year": 2,
+        "age": 16,
+        "height": 158,
+        "weaponType": "AR",
+        "uniqueWeapon": "マイ・ネセシティ",
+        "isPlayable": true
+    },
+    {
+        "id": 7,
+        "firstname": {
+            "kana": "アズサ",
+            "english": "Azusa"
+        },
+        "familyname": {
+            "kana": "シラス",
+            "kanji": "白洲"
+        },
+        "school": "トリニティ",
+        "club": "補習授業部",
+        "year": 2,
+        "age": 16,
+        "height": 149,
+        "weaponType": "AR",
+        "uniqueWeapon": "EtOmniaVanitas",
+        "isPlayable": true
+    },
+    {
+        "id": 8,
+        "firstname": {
+            "kana": "コハル",
+            "english": "Koharu"
+        },
+        "familyname": {
+            "kana": "シモエ",
+            "kanji": "下江"
+        },
+        "school": "トリニティ",
+        "club": "補習授業部",
+        "year": 1,
+        "age": 15,
+        "height": 148,
+        "weaponType": "SR",
+        "uniqueWeapon": "ジャスティス・ブラック",
+        "isPlayable": true
+    },
+    {
+        "id": 9,
+        "firstname": {
+            "kana": "ハナコ",
+            "english": "Hanako"
+        },
+        "familyname": {
+            "kana": "ウラワ",
+            "kanji": "浦和"
+        },
+        "school": "トリニティ",
+        "club": "補習授業部",
+        "year": 2,
+        "age": 16,
+        "height": 161,
+        "weaponType": "AR",
+        "uniqueWeapon": "オネストウィッシュ",
+        "isPlayable": true
+    },
+    {
+        "id": 10,
+        "firstname": {
+            "kana": "ナギサ",
+            "english": "Nagisa"
+        },
+        "familyname": {
+            "kana": "キリフジ",
+            "kanji": "桐藤"
+        },
+        "school": "トリニティ",
+        "club": "ティーパーティー",
+        "year": 3,
+        "age": 17,
+        "height": 160,
+        "weaponType": "HG",
+        "uniqueWeapon": "ロイヤルブレンド",
+        "isPlayable": true
+    },
+    {
+        "id": 11,
+        "firstname": {
+            "kana": "ミカ",
+            "english": "Mika"
+        },
+        "familyname": {
+            "kana": "ミソノ",
+            "kanji": "聖園"
+        },
+        "school": "トリニティ",
+        "club": "ティーパーティー",
+        "year": 3,
+        "age": 17,
+        "height": 157,
+        "weaponType": "SMG",
+        "uniqueWeapon": "QuisutDeus",
+        "isPlayable": true
+    },
+    {
+        "id": 12,
+        "firstname": {
+            "kana": "セイア",
+            "english": "Seia"
+        },
+        "familyname": {
+            "kana": "ユリゾノ",
+            "kanji": "百合園"
+        },
+        "school": "トリニティ",
+        "club": "ティーパーティー",
+        "year": 3,
+        "age": 17,
+        "height": 149,
+        "weaponType": "HG",
+        "uniqueWeapon": "鋭き光彩",
+        "isPlayable": true
+    },
+    {
+        "id": 13,
+        "firstname": {
+            "kana": "ツルギ",
+            "english": "Tsurugi"
+        },
+        "familyname": {
+            "kana": "ケンザキ",
+            "kanji": "剣先"
+        },
+        "school": "トリニティ",
+        "club": "正義実現委員会",
+        "year": 3,
+        "age": 17,
+        "height": 162,
+        "weaponType": "SG",
+        "uniqueWeapon": "ブラッド＆ガンパウダー",
+        "isPlayable": true
+    },
+    {
+        "id": 14,
+        "firstname": {
+            "kana": "ハスミ",
+            "english": "Hasumi"
+        },
+        "familyname": {
+            "kana": "ハネカワ",
+            "kanji": "羽川"
+        },
+        "school": "トリニティ",
+        "club": "正義実現委員会",
+        "year": 3,
+        "age": 17,
+        "height": 179,
+        "weaponType": "SR",
+        "uniqueWeapon": "インペイルメント",
+        "isPlayable": true
+    },
+    {
+        "id": 15,
+        "firstname": {
+            "kana": "マシロ",
+            "english": "Mashiro"
+        },
+        "familyname": {
+            "kana": "シズヤマ",
+            "kanji": "静山"
+        },
+        "school": "トリニティ",
+        "club": "正義実現委員会",
+        "year": 1,
+        "age": 15,
+        "height": 155,
+        "weaponType": "SR",
+        "uniqueWeapon": "正義の顕現",
+        "isPlayable": true
+    },
+    {
+        "id": 16,
+        "firstname": {
+            "kana": "イチカ",
+            "english": "Ichika"
+        },
+        "familyname": {
+            "kana": "ナカマサ",
+            "kanji": "仲正"
+        },
+        "school": "トリニティ",
+        "club": "正義実現委員会",
+        "year": 2,
+        "age": 16,
+        "height": 163,
+        "weaponType": "AR",
+        "uniqueWeapon": "レッドドラゴン",
+        "isPlayable": true
+    },
+    {
+        "id": 17,
+        "firstname": {
+            "kana": "サクラコ",
+            "english": "Sakurako"
+        },
+        "familyname": {
+            "kana": "ウタズミ",
+            "kanji": "歌住"
+        },
+        "school": "トリニティ",
+        "club": "シスターフッド",
+        "year": 3,
+        "age": 17,
+        "height": 160,
+        "weaponType": "AR",
+        "uniqueWeapon": "浄化の織り手",
+        "isPlayable": true
+    },
+    {
+        "id": 18,
+        "firstname": {
+            "kana": "ヒナタ",
+            "english": "Hinata"
+        },
+        "familyname": {
+            "kana": "ワカバ",
+            "kanji": "若葉"
+        },
+        "school": "トリニティ",
+        "club": "シスターフッド",
+        "year": 3,
+        "age": 17,
+        "height": 166,
+        "weaponType": "HG",
+        "uniqueWeapon": "ブレッシング",
+        "isPlayable": true
+    },
+    {
+        "id": 19,
+        "firstname": {
+            "kana": "マリー",
+            "english": "Mari"
+        },
+        "familyname": {
+            "kana": "イオチ",
+            "kanji": "伊落"
+        },
+        "school": "トリニティ",
+        "club": "シスターフッド",
+        "year": 1,
+        "age": 15,
+        "height": 151,
+        "weaponType": "HG",
+        "uniqueWeapon": "パイエティー",
+        "isPlayable": true
+    },
+    {
+        "id": 20,
+        "firstname": {
+            "kana": "ウイ",
+            "english": "Ui"
+        },
+        "familyname": {
+            "kana": "コゼキ",
+            "kanji": "古関"
+        },
+        "school": "トリニティ",
+        "club": "図書委員会",
+        "year": 3,
+        "age": 17,
+        "height": 165,
+        "weaponType": "SR",
+        "uniqueWeapon": "ボリュームサプレッサー",
+        "isPlayable": true
+    },
+    {
+        "id": 21,
+        "firstname": {
+            "kana": "シミコ",
+            "english": "Shimiko"
+        },
+        "familyname": {
+            "kana": "エンドウ",
+            "kanji": "円堂"
+        },
+        "school": "トリニティ",
+        "club": "図書委員会",
+        "year": 1,
+        "age": 15,
+        "height": 157,
+        "weaponType": "AR",
+        "uniqueWeapon": "ライブラリールーラー",
+        "isPlayable": true
+    },
+    {
+        "id": 22,
+        "firstname": {
+            "kana": "ナツ",
+            "english": "Natsu"
+        },
+        "familyname": {
+            "kana": "ユトリ",
+            "kanji": "柚鳥"
+        },
+        "school": "トリニティ",
+        "club": "放課後スイーツ部",
+        "year": 1,
+        "age": 15,
+        "height": 152,
+        "weaponType": "SMG",
+        "uniqueWeapon": "ビヨンド・ザ・ルミネーション",
+        "isPlayable": true
+    },
+    {
+        "id": 23,
+        "firstname": {
+            "kana": "カズサ",
+            "english": "Kazusa"
+        },
+        "familyname": {
+            "kana": "キョウヤマ",
+            "kanji": "杏山"
+        },
+        "school": "トリニティ",
+        "club": "放課後スイーツ部",
+        "year": 1,
+        "age": 15,
+        "height": 155,
+        "weaponType": "MG",
+        "uniqueWeapon": "マビノギオン",
+        "isPlayable": true
+    },
+    {
+        "id": 24,
+        "firstname": {
+            "kana": "アイリ",
+            "english": "Airi"
+        },
+        "familyname": {
+            "kana": "クリムラ",
+            "kanji": "栗村"
+        },
+        "school": "トリニティ",
+        "club": "放課後スイーツ部",
+        "year": 1,
+        "age": 15,
+        "height": 160,
+        "weaponType": "SMG",
+        "uniqueWeapon": "爽やかチョコミント",
+        "isPlayable": true
+    },
+    {
+        "id": 25,
+        "firstname": {
+            "kana": "ヨシミ",
+            "english": "Yoshimi"
+        },
+        "familyname": {
+            "kana": "イバラギ",
+            "kanji": "伊原木"
+        },
+        "school": "トリニティ",
+        "club": "放課後スイーツ部",
+        "year": 1,
+        "age": 15,
+        "height": 146,
+        "weaponType": "AR",
+        "uniqueWeapon": "スイーツドライバー",
+        "isPlayable": true
+    },
+    {
+        "id": 26,
+        "firstname": {
+            "kana": "ミネ",
+            "english": "Mine"
+        },
+        "familyname": {
+            "kana": "アオモリ",
+            "kanji": "蒼森"
+        },
+        "school": "トリニティ",
+        "club": "救護騎士団",
+        "year": 3,
+        "age": 17,
+        "height": 168,
+        "weaponType": "SG",
+        "uniqueWeapon": "救護の証明",
+        "isPlayable": true
+    },
+    {
+        "id": 27,
+        "firstname": {
+            "kana": "ハナエ",
+            "english": "Hanae"
+        },
+        "familyname": {
+            "kana": "アサガオ",
+            "kanji": "朝顔"
+        },
+        "school": "トリニティ",
+        "club": "救護騎士団",
+        "year": 1,
+        "age": 15,
+        "height": 150,
+        "weaponType": "AR",
+        "uniqueWeapon": "ハッピースマイリー",
+        "isPlayable": true
+    },
+    {
+        "id": 28,
+        "firstname": {
+            "kana": "セリナ",
+            "english": "Serina"
+        },
+        "familyname": {
+            "kana": "スミ",
+            "kanji": "鷲見"
+        },
+        "school": "トリニティ",
+        "club": "救護騎士団",
+        "year": 2,
+        "age": 16,
+        "height": 156,
+        "weaponType": "AR",
+        "uniqueWeapon": "タクティカルセラピー",
+        "isPlayable": true
+    },
+    {
+        "id": 29,
+        "firstname": {
+            "kana": "スズミ",
+            "english": "Suzumi"
+        },
+        "familyname": {
+            "kana": "モツヅキ",
+            "kanji": "守月"
+        },
+        "school": "トリニティ",
+        "club": "トリニティ自警団",
+        "year": 2,
+        "age": 16,
+        "height": 162,
+        "weaponType": "AR",
+        "uniqueWeapon": "セーフティー",
+        "isPlayable": true
+    },
+    {
+        "id": 30,
+        "firstname": {
+            "kana": "レイサ",
+            "english": "Reisa"
+        },
+        "familyname": {
+            "kana": "ウザワ",
+            "kanji": "宇沢"
+        },
+        "school": "トリニティ",
+        "club": "トリニティ自警団",
+        "year": 1,
+        "age": 15,
+        "height": 153,
+        "weaponType": "SG",
+        "uniqueWeapon": "シューティング☆スター",
+        "isPlayable": true
+    },
+    {
+        "id": 31,
+        "firstname": {
+            "kana": "ラブ",
+            "english": "Rabu"
+        },
+        "familyname": {
+            "kana": "コマカゼ",
+            "kanji": "河駒風"
+        },
+        "school": null,
+        "club": null,
+        "year": null,
+        "age": 16,
+        "height": 161,
+        "weaponType": "SG",
+        "uniqueWeapon": "ピンチヒッター",
+        "isPlayable": true
+    },
+    {
+        "id": 32,
+        "firstname": {
+            "kana": "ヒナ",
+            "english": "Hina"
+        },
+        "familyname": {
+            "kana": "ソラサキ",
+            "kanji": "空崎"
+        },
+        "school": "ゲヘナ",
+        "club": "風紀委員会",
+        "year": 3,
+        "age": 17,
+        "height": 142,
+        "weaponType": "MG",
+        "uniqueWeapon": "終幕：デストロイヤー",
+        "isPlayable": true
+    },
+    {
+        "id": 33,
+        "firstname": {
+            "kana": "アコ",
+            "english": "Ako"
+        },
+        "familyname": {
+            "kana": "アマウ",
+            "kanji": "天雨"
+        },
+        "school": "ゲヘナ",
+        "club": "風紀委員会",
+        "year": 3,
+        "age": 17,
+        "height": 165,
+        "weaponType": "HG",
+        "uniqueWeapon": "ホットショット",
+        "isPlayable": true
+    },
+    {
+        "id": 34,
+        "firstname": {
+            "kana": "イオリ",
+            "english": "Iori"
+        },
+        "familyname": {
+            "kana": "シロミ",
+            "kanji": "銀鏡"
+        },
+        "school": "ゲヘナ",
+        "club": "風紀委員会",
+        "year": 2,
+        "age": 16,
+        "height": 157,
+        "weaponType": "SR",
+        "uniqueWeapon": "クラックショット",
+        "isPlayable": true
+    },
+    {
+        "id": 35,
+        "firstname": {
+            "kana": "チナツ",
+            "english": "Chinatsu"
+        },
+        "familyname": {
+            "kana": "ヒノミヤ",
+            "kanji": "火宮"
+        },
+        "school": "ゲヘナ",
+        "club": "風紀委員会",
+        "year": 1,
+        "age": 15,
+        "height": 159,
+        "weaponType": "HG",
+        "uniqueWeapon": "サポートポインター",
+        "isPlayable": true
+    },
+    {
+        "id": 36,
+        "firstname": {
+            "kana": "マコト",
+            "english": "Makoto"
+        },
+        "familyname": {
+            "kana": "ハヌマ",
+            "kanji": "羽沼"
+        },
+        "school": "ゲヘナ",
+        "club": "万魔殿",
+        "year": 3,
+        "age": 18,
+        "height": 169,
+        "weaponType": "SR",
+        "uniqueWeapon": "唯我独尊",
+        "isPlayable": true
+    },
+    {
+        "id": 37,
+        "firstname": {
+            "kana": "サツキ",
+            "english": "Satsuki"
+        },
+        "familyname": {
+            "kana": "キョウゴク",
+            "kanji": "京極"
+        },
+        "school": "ゲヘナ",
+        "club": "万魔殿",
+        "year": 3,
+        "age": 17,
+        "height": 172,
+        "weaponType": "HG",
+        "uniqueWeapon": "NKデルタ",
+        "isPlayable": true
+    },
+    {
+        "id": 38,
+        "firstname": {
+            "kana": "イロハ",
+            "english": "Iroha"
+        },
+        "familyname": {
+            "kana": "ナツメ",
+            "kanji": "棗"
+        },
+        "school": "ゲヘナ",
+        "club": "万魔殿",
+        "year": 2,
+        "age": 16,
+        "height": 151,
+        "weaponType": "HG",
+        "uniqueWeapon": "万魔殿制式拳銃",
+        "isPlayable": true
+    },
+    {
+        "id": 39,
+        "firstname": {
+            "kana": "チアキ",
+            "english": "Chiaki"
+        },
+        "familyname": {
+            "kana": "モトミヤ",
+            "kanji": "元宮"
+        },
+        "school": "ゲヘナ",
+        "club": "万魔殿",
+        "year": 2,
+        "age": 16,
+        "height": 167,
+        "weaponType": "AR",
+        "uniqueWeapon": "カメラブリッツ",
+        "isPlayable": true
+    },
+    {
+        "id": 40,
+        "firstname": {
+            "kana": "イブキ",
+            "english": "Ibuki"
+        },
+        "familyname": {
+            "kana": "タンガ",
+            "kanji": "丹花"
+        },
+        "school": "ゲヘナ",
+        "club": "万魔殿",
+        "year": 1,
+        "age": 11,
+        "height": 128,
+        "weaponType": "AR",
+        "uniqueWeapon": "バンバーン！ちゃん",
+        "isPlayable": true
+    },
+    {
+        "id": 41,
+        "firstname": {
+            "kana": "アル",
+            "english": "Aru"
+        },
+        "familyname": {
+            "kana": "リクハチマ",
+            "kanji": "陸八魔"
+        },
+        "school": "ゲヘナ",
+        "club": "便利屋68",
+        "year": 2,
+        "age": 16,
+        "height": 160,
+        "weaponType": "SR",
+        "uniqueWeapon": "ワインレッド・アドマイアー",
+        "isPlayable": true
+    },
+    {
+        "id": 42,
+        "firstname": {
+            "kana": "カヨコ",
+            "english": "Kayoko"
+        },
+        "familyname": {
+            "kana": "オニカタ",
+            "kanji": "鬼方"
+        },
+        "school": "ゲヘナ",
+        "club": "便利屋68",
+        "year": 3,
+        "age": 18,
+        "height": 157,
+        "weaponType": "HG",
+        "uniqueWeapon": "デモンズロア",
+        "isPlayable": true
+    },
+    {
+        "id": 43,
+        "firstname": {
+            "kana": "ムツキ",
+            "english": "Mutsuki"
+        },
+        "familyname": {
+            "kana": "アサギ",
+            "kanji": "浅黄"
+        },
+        "school": "ゲヘナ",
+        "club": "便利屋68",
+        "year": 2,
+        "age": 16,
+        "height": 144,
+        "weaponType": "MG",
+        "uniqueWeapon": "トリックオアトリック",
+        "isPlayable": true
+    },
+    {
+        "id": 44,
+        "firstname": {
+            "kana": "ハルカ",
+            "english": "Haruka"
+        },
+        "familyname": {
+            "kana": "イグサ",
+            "kanji": "伊草"
+        },
+        "school": "ゲヘナ",
+        "club": "便利屋68",
+        "year": 1,
+        "age": 15,
+        "height": 157,
+        "weaponType": "SG",
+        "uniqueWeapon": "ブローアウェイ",
+        "isPlayable": true
+    },
+    {
+        "id": 45,
+        "firstname": {
+            "kana": "ハルナ",
+            "english": "Haruna"
+        },
+        "familyname": {
+            "kana": "クロダテ",
+            "kanji": "黒舘"
+        },
+        "school": "ゲヘナ",
+        "club": "美食研究会",
+        "year": 3,
+        "age": 17,
+        "height": 163,
+        "weaponType": "SR",
+        "uniqueWeapon": "アイディール",
+        "isPlayable": true
+    },
+    {
+        "id": 46,
+        "firstname": {
+            "kana": "イズミ",
+            "english": "Izumi"
+        },
+        "familyname": {
+            "kana": "シシドウ",
+            "kanji": "獅子堂"
+        },
+        "school": "ゲヘナ",
+        "club": "美食研究会",
+        "year": 2,
+        "age": 16,
+        "height": 161,
+        "weaponType": "MG",
+        "uniqueWeapon": "デイリーカトラリー",
+        "isPlayable": true
+    },
+    {
+        "id": 47,
+        "firstname": {
+            "kana": "アカリ",
+            "english": "Akari"
+        },
+        "familyname": {
+            "kana": "ワニブチ",
+            "kanji": "鰐渕"
+        },
+        "school": "ゲヘナ",
+        "club": "美食研究会",
+        "year": 3,
+        "age": 17,
+        "height": 167,
+        "weaponType": "AR",
+        "uniqueWeapon": "ボトムレス",
+        "isPlayable": true
+    },
+    {
+        "id": 48,
+        "firstname": {
+            "kana": "ジュンコ",
+            "english": "Junko"
+        },
+        "familyname": {
+            "kana": "アカシ",
+            "kanji": "赤司"
+        },
+        "school": "ゲヘナ",
+        "club": "美食研究会",
+        "year": 1,
+        "age": 15,
+        "height": 149,
+        "weaponType": "AR",
+        "uniqueWeapon": "ダイナーズアウトロー",
+        "isPlayable": true
+    },
+    {
+        "id": 49,
+        "firstname": {
+            "kana": "フウカ",
+            "english": "Fuuka"
+        },
+        "familyname": {
+            "kana": "アイキヨ",
+            "kanji": "愛清"
+        },
+        "school": "ゲヘナ",
+        "club": "給食部",
+        "year": 2,
+        "age": 16,
+        "height": 159,
+        "weaponType": "SMG",
+        "uniqueWeapon": "給食部の護身用銃typeA",
+        "isPlayable": true
+    },
+    {
+        "id": 50,
+        "firstname": {
+            "kana": "ジュリ",
+            "english": "Juri"
+        },
+        "familyname": {
+            "kana": "ウシマキ",
+            "kanji": "牛牧"
+        },
+        "school": "ゲヘナ",
+        "club": "給食部",
+        "year": 1,
+        "age": 15,
+        "height": 170,
+        "weaponType": "SG",
+        "uniqueWeapon": "給食部の護身用銃typeB",
+        "isPlayable": true
+    },
+    {
+        "id": 51,
+        "firstname": {
+            "kana": "セナ",
+            "english": "Sena"
+        },
+        "familyname": {
+            "kana": "ヒムロ",
+            "kanji": "氷室"
+        },
+        "school": "ゲヘナ",
+        "club": "救急医学部",
+        "year": 3,
+        "age": 17,
+        "height": 155,
+        "weaponType": "GL",
+        "uniqueWeapon": "救急用突入キット",
+        "isPlayable": true
+    },
+    {
+        "id": 52,
+        "firstname": {
+            "kana": "カスミ",
+            "english": "Kasumi"
+        },
+        "familyname": {
+            "kana": "キヌガワ",
+            "kanji": "鬼怒川"
+        },
+        "school": "ゲヘナ",
+        "club": "温泉開発部",
+        "year": 2,
+        "age": 16,
+        "height": 148,
+        "weaponType": "HG",
+        "uniqueWeapon": "レッド・レクター",
+        "isPlayable": true
+    },
+    {
+        "id": 53,
+        "firstname": {
+            "kana": "メグ",
+            "english": "Megu"
+        },
+        "familyname": {
+            "kana": "シモクラ",
+            "kanji": "下倉"
+        },
+        "school": "ゲヘナ",
+        "club": "温泉開発部",
+        "year": 3,
+        "age": 17,
+        "height": 164,
+        "weaponType": "FT",
+        "uniqueWeapon": "メグマパワー！",
+        "isPlayable": true
+    },
+    {
+        "id": 54,
+        "firstname": {
+            "kana": "キララ",
+            "english": "Kirara"
+        },
+        "familyname": {
+            "kana": "ヨザクラ",
+            "kanji": "夜桜"
+        },
+        "school": "ゲヘナ",
+        "club": "キラキラ部",
+        "year": 2,
+        "age": 16,
+        "height": 159,
+        "weaponType": "AR",
+        "uniqueWeapon": "チョコレート＆ストロベリー",
+        "isPlayable": true
+    },
+    {
+        "id": 55,
+        "firstname": {
+            "kana": "エリカ",
+            "english": "Erika"
+        },
+        "familyname": {
+            "kana": "ハタミ",
+            "kanji": "旗見"
+        },
+        "school": "ゲヘナ",
+        "club": "キラキラ部",
+        "year": 2,
+        "age": 16,
+        "height": 166,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 56,
+        "firstname": {
+            "kana": "リオ",
+            "english": "Rio"
+        },
+        "familyname": {
+            "kana": "ツカツキ",
+            "kanji": "調月"
+        },
+        "school": "ミレニアム",
+        "club": "セミナー",
+        "year": 3,
+        "age": 17,
+        "height": 171,
+        "weaponType": "HG",
+        "uniqueWeapon": "立案者",
+        "isPlayable": true
+    },
+    {
+        "id": 57,
+        "firstname": {
+            "kana": "ユウカ",
+            "english": "Yuuka"
+        },
+        "familyname": {
+            "kana": "ハヤセ",
+            "kanji": "早瀬"
+        },
+        "school": "ミレニアム",
+        "club": "セミナー",
+        "year": 2,
+        "age": 16,
+        "height": 156,
+        "weaponType": "SMG",
+        "uniqueWeapon": "ロジック＆リーズン",
+        "isPlayable": true
+    },
+    {
+        "id": 58,
+        "firstname": {
+            "kana": "ノア",
+            "english": "Noa"
+        },
+        "familyname": {
+            "kana": "ウシオ",
+            "kanji": "生塩"
+        },
+        "school": "ミレニアム",
+        "club": "セミナー",
+        "year": 2,
+        "age": 16,
+        "height": 161,
+        "weaponType": "HG",
+        "uniqueWeapon": "書記の採決",
+        "isPlayable": true
+    },
+    {
+        "id": 59,
+        "firstname": {
+            "kana": "コユキ",
+            "english": "Koyuki"
+        },
+        "familyname": {
+            "kana": "クロサキ",
+            "kanji": "黒崎"
+        },
+        "school": "ミレニアム",
+        "club": "セミナー",
+        "year": 1,
+        "age": 15,
+        "height": 149,
+        "weaponType": "MG",
+        "uniqueWeapon": "マリ・ガン",
+        "isPlayable": true
+    },
+    {
+        "id": 60,
+        "firstname": {
+            "kana": "ヒマリ",
+            "english": "Himari"
+        },
+        "familyname": {
+            "kana": "アケボシ",
+            "kanji": "明星"
+        },
+        "school": "ミレニアム",
+        "club": "特異現象捜査部",
+        "year": 3,
+        "age": 17,
+        "height": 162,
+        "weaponType": "HG",
+        "uniqueWeapon": "高嶺の花",
+        "isPlayable": true
+    },
+    {
+        "id": 61,
+        "firstname": {
+            "kana": "エイミ",
+            "english": "Eimi"
+        },
+        "familyname": {
+            "kana": "イズミモト",
+            "kanji": "和泉元"
+        },
+        "school": "ミレニアム",
+        "club": "特異現象捜査部",
+        "year": 1,
+        "age": 15,
+        "height": 167,
+        "weaponType": "SG",
+        "uniqueWeapon": "マルチタクティカル",
+        "isPlayable": true
+    },
+    {
+        "id": 62,
+        "firstname": {
+            "kana": "ユズ",
+            "english": "Yuzu"
+        },
+        "familyname": {
+            "kana": "ハナオカ",
+            "kanji": "花岡"
+        },
+        "school": "ミレニアム",
+        "club": "ゲーム開発部",
+        "year": 1,
+        "age": 16,
+        "height": 150,
+        "weaponType": "GL",
+        "uniqueWeapon": "にゃん’sダッシュ",
+        "isPlayable": true
+    },
+    {
+        "id": 63,
+        "firstname": {
+            "kana": "モモイ",
+            "english": "Momoi"
+        },
+        "familyname": {
+            "kana": "サイバ",
+            "kanji": "才羽"
+        },
+        "school": "ミレニアム",
+        "club": "ゲーム開発部",
+        "year": 1,
+        "age": 15,
+        "height": 143,
+        "weaponType": "AR",
+        "uniqueWeapon": "ユニーク・アイディア",
+        "isPlayable": true
+    },
+    {
+        "id": 64,
+        "firstname": {
+            "kana": "ミドリ",
+            "english": "Midori"
+        },
+        "familyname": {
+            "kana": "サイバ",
+            "kanji": "才羽"
+        },
+        "school": "ミレニアム",
+        "club": "ゲーム開発部",
+        "year": 1,
+        "age": 15,
+        "height": 143,
+        "weaponType": "SR",
+        "uniqueWeapon": "フレッシュ・インスピレーション",
+        "isPlayable": true
+    },
+    {
+        "id": 65,
+        "firstname": {
+            "kana": "アリス",
+            "english": "Arisu"
+        },
+        "familyname": {
+            "kana": "テンドウ",
+            "kanji": "天童"
+        },
+        "school": "ミレニアム",
+        "club": "ゲーム開発部",
+        "year": 1,
+        "age": null,
+        "height": 152,
+        "weaponType": "RG",
+        "uniqueWeapon": "光の剣：スーパーノヴァ",
+        "isPlayable": true
+    },
+    {
+        "id": 66,
+        "firstname": {
+            "kana": "ネル",
+            "english": "Neru"
+        },
+        "familyname": {
+            "kana": "ミカモ",
+            "kanji": "美甘"
+        },
+        "school": "ミレニアム",
+        "club": "Cleaning&Clearing",
+        "year": 3,
+        "age": 17,
+        "height": 146,
+        "weaponType": "SMG",
+        "uniqueWeapon": "ツイン・ドラゴン",
+        "isPlayable": true
+    },
+    {
+        "id": 67,
+        "firstname": {
+            "kana": "アスナ",
+            "english": "Asuna"
+        },
+        "familyname": {
+            "kana": "イチノセ",
+            "kanji": "一之瀬"
+        },
+        "school": "ミレニアム",
+        "club": "Cleaning&Clearing",
+        "year": 3,
+        "age": 17,
+        "height": 167,
+        "weaponType": "AR",
+        "uniqueWeapon": "サプライズパーティー",
+        "isPlayable": true
+    },
+    {
+        "id": 68,
+        "firstname": {
+            "kana": "カリン",
+            "english": "Karin"
+        },
+        "familyname": {
+            "kana": "カクダテ",
+            "kanji": "角楯"
+        },
+        "school": "ミレニアム",
+        "club": "Cleaning&Clearing",
+        "year": 2,
+        "age": 16,
+        "height": 170,
+        "weaponType": "SR",
+        "uniqueWeapon": "ホークアイ",
+        "isPlayable": true
+    },
+    {
+        "id": 69,
+        "firstname": {
+            "kana": "アカネ",
+            "english": "Akane"
+        },
+        "familyname": {
+            "kana": "ムロカサ",
+            "kanji": "室笠"
+        },
+        "school": "ミレニアム",
+        "club": "Cleaning&Clearing",
+        "year": 2,
+        "age": 16,
+        "height": 164,
+        "weaponType": "HG",
+        "uniqueWeapon": "サイレントソリューション",
+        "isPlayable": true
+    },
+    {
+        "id": 70,
+        "firstname": {
+            "kana": "トキ",
+            "english": "Toki"
+        },
+        "familyname": {
+            "kana": "アスマ",
+            "kanji": "飛鳥馬"
+        },
+        "school": "ミレニアム",
+        "club": "Cleaning&Clearing",
+        "year": 1,
+        "age": 16,
+        "height": 165,
+        "weaponType": "AR",
+        "uniqueWeapon": "シークレットタイム",
+        "isPlayable": true
+    },
+    {
+        "id": 71,
+        "firstname": {
+            "kana": "ウタハ",
+            "english": "Utaha"
+        },
+        "familyname": {
+            "kana": "シライシ",
+            "kanji": "白石"
+        },
+        "school": "ミレニアム",
+        "club": "エンジニア部",
+        "year": 3,
+        "age": 17,
+        "height": 162,
+        "weaponType": "SMG",
+        "uniqueWeapon": "マイスター・ゼロ",
+        "isPlayable": true
+    },
+    {
+        "id": 72,
+        "firstname": {
+            "kana": "ヒビキ",
+            "english": "Hibiki"
+        },
+        "familyname": {
+            "kana": "ネコヅカ",
+            "kanji": "猫塚"
+        },
+        "school": "ミレニアム",
+        "club": "エンジニア部",
+        "year": 1,
+        "age": 15,
+        "height": 154,
+        "weaponType": "MT",
+        "uniqueWeapon": "ファンシーライト",
+        "isPlayable": true
+    },
+    {
+        "id": 73,
+        "firstname": {
+            "kana": "コトリ",
+            "english": "Kotori"
+        },
+        "familyname": {
+            "kana": "トヨミ",
+            "kanji": "豊見"
+        },
+        "school": "ミレニアム",
+        "club": "エンジニア部",
+        "year": 1,
+        "age": 15,
+        "height": 151,
+        "weaponType": "MG",
+        "uniqueWeapon": "プロフェッサーK",
+        "isPlayable": true
+    },
+    {
+        "id": 74,
+        "firstname": {
+            "kana": "チヒロ",
+            "english": "Chihiro"
+        },
+        "familyname": {
+            "kana": "カガミ",
+            "kanji": "各務"
+        },
+        "school": "ミレニアム",
+        "club": "ヴェリタス",
+        "year": 3,
+        "age": 17,
+        "height": 160,
+        "weaponType": "AR",
+        "uniqueWeapon": "バックドア",
+        "isPlayable": true
+    },
+    {
+        "id": 75,
+        "firstname": {
+            "kana": "マキ",
+            "english": "Maki"
+        },
+        "familyname": {
+            "kana": "コヌリ",
+            "kanji": "小塗"
+        },
+        "school": "ミレニアム",
+        "club": "ヴェリタス",
+        "year": 1,
+        "age": 15,
+        "height": 149,
+        "weaponType": "MG",
+        "uniqueWeapon": "オートラッカー",
+        "isPlayable": true
+    },
+    {
+        "id": 76,
+        "firstname": {
+            "kana": "ハレ",
+            "english": "Hare"
+        },
+        "familyname": {
+            "kana": "オマガリ",
+            "kanji": "小鈎"
+        },
+        "school": "ミレニアム",
+        "club": "ヴェリタス",
+        "year": 2,
+        "age": 16,
+        "height": 153,
+        "weaponType": "AR",
+        "uniqueWeapon": "オートエイマー",
+        "isPlayable": true
+    },
+    {
+        "id": 77,
+        "firstname": {
+            "kana": "コタマ",
+            "english": "Kotama"
+        },
+        "familyname": {
+            "kana": "オトセ",
+            "kanji": "音瀬"
+        },
+        "school": "ミレニアム",
+        "club": "ヴェリタス",
+        "year": 3,
+        "age": 17,
+        "height": 158,
+        "weaponType": "HG",
+        "uniqueWeapon": "エコーリンク",
+        "isPlayable": true
+    },
+    {
+        "id": 78,
+        "firstname": {
+            "kana": "スミレ",
+            "english": "Sumire"
+        },
+        "familyname": {
+            "kana": "オトハナ",
+            "kanji": "乙花"
+        },
+        "school": "ミレニアム",
+        "club": "トレーニング部",
+        "year": 2,
+        "age": 16,
+        "height": 167,
+        "weaponType": "SG",
+        "uniqueWeapon": "ミレニアム製最新型ダンベル",
+        "isPlayable": true
+    },
+    {
+        "id": 79,
+        "firstname": {
+            "kana": "レイ",
+            "english": "Rei"
+        },
+        "familyname": {
+            "kana": "ノマサ",
+            "kanji": "野正"
+        },
+        "school": "ミレニアム",
+        "club": "トレーニング部",
+        "year": 1,
+        "age": 15,
+        "height": 159,
+        "weaponType": "RL",
+        "uniqueWeapon": "ムーンショット！",
+        "isPlayable": true
+    },
+    {
+        "id": 80,
+        "firstname": {
+            "kana": "ミライ",
+            "english": "Mirai"
+        },
+        "familyname": {
+            "kana": "アヅマ",
+            "kanji": "吾妻"
+        },
+        "school": "ミレニアム",
+        "club": "疑似科学部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 81,
+        "firstname": {
+            "kana": "ニヤ",
+            "english": "Niya"
+        },
+        "familyname": {
+            "kana": "アマチ",
+            "kanji": "天地"
+        },
+        "school": "百鬼夜行",
+        "club": "陰陽部",
+        "year": 3,
+        "age": 17,
+        "height": 166,
+        "weaponType": "HG",
+        "uniqueWeapon": "口蜜腹剣",
+        "isPlayable": true
+    },
+    {
+        "id": 82,
+        "firstname": {
+            "kana": "カホ",
+            "english": "Kaho"
+        },
+        "familyname": {
+            "kana": "クワカミ",
+            "kanji": "桑上"
+        },
+        "school": "百鬼夜行",
+        "club": "陰陽部",
+        "year": 3,
+        "age": 17,
+        "height": 173,
+        "weaponType": "AR",
+        "uniqueWeapon": "戦略リーダーのノウハウ",
+        "isPlayable": true
+    },
+    {
+        "id": 83,
+        "firstname": {
+            "kana": "チセ",
+            "english": "Chise"
+        },
+        "familyname": {
+            "kana": "ワラク",
+            "kanji": "和楽"
+        },
+        "school": "百鬼夜行",
+        "club": "陰陽部",
+        "year": 2,
+        "age": 16,
+        "height": 159,
+        "weaponType": "GL",
+        "uniqueWeapon": "五七五式榴弾砲",
+        "isPlayable": true
+    },
+    {
+        "id": 84,
+        "firstname": {
+            "kana": "ナグサ",
+            "english": "Nagusa"
+        },
+        "familyname": {
+            "kana": "ゴリョウ",
+            "kanji": "御稜"
+        },
+        "school": "百鬼夜行",
+        "club": "百花繚乱紛争調停委員会",
+        "year": 3,
+        "age": 17,
+        "height": 161,
+        "weaponType": "SR",
+        "uniqueWeapon": "百蓮",
+        "isPlayable": true
+    },
+    {
+        "id": 85,
+        "firstname": {
+            "kana": "レンゲ",
+            "english": "Renge"
+        },
+        "familyname": {
+            "kana": "フワ",
+            "kanji": "不破"
+        },
+        "school": "百鬼夜行",
+        "club": "百花繚乱紛争調停委員会",
+        "year": 2,
+        "age": 16,
+        "height": 157,
+        "weaponType": "SR",
+        "uniqueWeapon": "百花繚乱制式ライフル-青春の火花",
+        "isPlayable": true
+    },
+    {
+        "id": 86,
+        "firstname": {
+            "kana": "キキョウ",
+            "english": "Kikyou"
+        },
+        "familyname": {
+            "kana": "キリュウ",
+            "kanji": "桐生"
+        },
+        "school": "百鬼夜行",
+        "club": "百花繚乱紛争調停委員会",
+        "year": 2,
+        "age": 16,
+        "height": 160,
+        "weaponType": "SR",
+        "uniqueWeapon": "百花繚乱制式ライフル-紺碧の知恵",
+        "isPlayable": true
+    },
+    {
+        "id": 87,
+        "firstname": {
+            "kana": "ユカリ",
+            "english": "Yukari"
+        },
+        "familyname": {
+            "kana": "カデノコウジ",
+            "kanji": "勘解由小路"
+        },
+        "school": "百鬼夜行",
+        "club": "百花繚乱紛争調停委員会",
+        "year": 1,
+        "age": 15,
+        "height": 155,
+        "weaponType": "SR",
+        "uniqueWeapon": "百花繚乱制式ライフル-少女の決意",
+        "isPlayable": true
+    },
+    {
+        "id": 88,
+        "firstname": {
+            "kana": "アヤメ",
+            "english": "Ayame"
+        },
+        "familyname": {
+            "kana": "ナナカド",
+            "kanji": "七稜"
+        },
+        "school": "百鬼夜行",
+        "club": "百花繚乱紛争調停委員会",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 89,
+        "firstname": {
+            "kana": "シズコ",
+            "english": "Shizuko"
+        },
+        "familyname": {
+            "kana": "カワワ",
+            "kanji": "河和"
+        },
+        "school": "百鬼夜行",
+        "club": "お祭り運営委員会",
+        "year": 2,
+        "age": 16,
+        "height": 153,
+        "weaponType": "SG",
+        "uniqueWeapon": "桜ボンボン",
+        "isPlayable": true
+    },
+    {
+        "id": 90,
+        "firstname": {
+            "kana": "フィーナ",
+            "english": "Fiina"
+        },
+        "familyname": {
+            "kana": "アサヒナ",
+            "kanji": "朝比奈"
+        },
+        "school": "百鬼夜行",
+        "club": "お祭り運営委員会",
+        "year": 1,
+        "age": 17,
+        "height": 165,
+        "weaponType": "MG",
+        "uniqueWeapon": "仁義なき撃ち合い",
+        "isPlayable": true
+    },
+    {
+        "id": 91,
+        "firstname": {
+            "kana": "ウミカ",
+            "english": "Umika"
+        },
+        "familyname": {
+            "kana": "サトハマ",
+            "kanji": "里浜"
+        },
+        "school": "百鬼夜行",
+        "club": "お祭り運営委員会",
+        "year": 1,
+        "age": 15,
+        "height": 165,
+        "weaponType": "AR",
+        "uniqueWeapon": "お祭りの熱気",
+        "isPlayable": true
+    },
+    {
+        "id": 92,
+        "firstname": {
+            "kana": "ミチル",
+            "english": "Michiru"
+        },
+        "familyname": {
+            "kana": "チドリ",
+            "kanji": "千鳥"
+        },
+        "school": "百鬼夜行",
+        "club": "忍術研究部",
+        "year": 3,
+        "age": 17,
+        "height": 153,
+        "weaponType": "SG",
+        "uniqueWeapon": "ミチル流オーバーフローショットガン",
+        "isPlayable": true
+    },
+    {
+        "id": 93,
+        "firstname": {
+            "kana": "イズナ",
+            "english": "Izuna"
+        },
+        "familyname": {
+            "kana": "クダ",
+            "kanji": "久田"
+        },
+        "school": "百鬼夜行",
+        "club": "忍術研究部",
+        "year": 1,
+        "age": 15,
+        "height": 155,
+        "weaponType": "SMG",
+        "uniqueWeapon": "イズナ流スーパー忍具",
+        "isPlayable": true
+    },
+    {
+        "id": 94,
+        "firstname": {
+            "kana": "ツクヨ",
+            "english": "Tsukuyo"
+        },
+        "familyname": {
+            "kana": "オオノ",
+            "kanji": "大野"
+        },
+        "school": "百鬼夜行",
+        "club": "忍術研究部",
+        "year": 1,
+        "age": 15,
+        "height": 180,
+        "weaponType": "SMG",
+        "uniqueWeapon": "ツクヨ流サブマシンガン",
+        "isPlayable": true
+    },
+    {
+        "id": 95,
+        "firstname": {
+            "kana": "ツバキ",
+            "english": "Tsubaki"
+        },
+        "familyname": {
+            "kana": "カスガ",
+            "kanji": "春日"
+        },
+        "school": "百鬼夜行",
+        "club": "修行部",
+        "year": 2,
+        "age": 16,
+        "height": 162,
+        "weaponType": "SMG",
+        "uniqueWeapon": "安眠のお供Ⅱ",
+        "isPlayable": true
+    },
+    {
+        "id": 96,
+        "firstname": {
+            "kana": "ミモリ",
+            "english": "Mimori"
+        },
+        "familyname": {
+            "kana": "ミズハ",
+            "kanji": "水羽"
+        },
+        "school": "百鬼夜行",
+        "club": "修行部",
+        "year": 2,
+        "age": 16,
+        "height": 156,
+        "weaponType": "HG",
+        "uniqueWeapon": "柔らかな決意",
+        "isPlayable": true
+    },
+    {
+        "id": 97,
+        "firstname": {
+            "kana": "カエデ",
+            "english": "Kaede"
+        },
+        "familyname": {
+            "kana": "イサミ",
+            "kanji": "勇美"
+        },
+        "school": "百鬼夜行",
+        "club": "修行部",
+        "year": 1,
+        "age": 15,
+        "height": 142,
+        "weaponType": "HG",
+        "uniqueWeapon": "ファニー・ファイアワークス",
+        "isPlayable": true
+    },
+    {
+        "id": 98,
+        "firstname": {
+            "kana": "ワカモ",
+            "english": "Wakamo"
+        },
+        "familyname": {
+            "kana": "コサカ",
+            "kanji": "狐坂"
+        },
+        "school": "百鬼夜行",
+        "club": null,
+        "year": null,
+        "age": 18,
+        "height": 161,
+        "weaponType": "SR",
+        "uniqueWeapon": "真紅の災厄",
+        "isPlayable": true
+    },
+    {
+        "id": 99,
+        "firstname": {
+            "kana": "コクリコ",
+            "english": "Kokuriko"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "百鬼夜行",
+        "club": "花鳥風月部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 100,
+        "firstname": {
+            "kana": "シュロ",
+            "english": "Shuro"
+        },
+        "familyname": {
+            "kana": "ヤブキ",
+            "kanji": "箭吹"
+        },
+        "school": "百鬼夜行",
+        "club": "花鳥風月部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 101,
+        "firstname": {
+            "kana": "アザミ",
+            "english": "Azami"
+        },
+        "familyname": {
+            "kana": "ハブ",
+            "kanji": "土生"
+        },
+        "school": "百鬼夜行",
+        "club": "花鳥風月部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 102,
+        "firstname": {
+            "kana": "アラタ",
+            "english": "Arata"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "百鬼夜行",
+        "club": "魑魅一座",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 103,
+        "firstname": {
+            "kana": "クズノハ",
+            "english": "Kuzunoha"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "百鬼夜行",
+        "club": null,
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 104,
+        "firstname": {
+            "kana": "キサキ",
+            "english": "Kisaki"
+        },
+        "familyname": {
+            "kana": "リュウゲ",
+            "kanji": "竜華"
+        },
+        "school": "山海経高級中学校",
+        "club": "玄龍門",
+        "year": 3,
+        "age": 17,
+        "height": 142,
+        "weaponType": "SMG",
+        "uniqueWeapon": "知彼知己",
+        "isPlayable": true
+    },
+    {
+        "id": 105,
+        "firstname": {
+            "kana": "ミナ",
+            "english": "Mina"
+        },
+        "familyname": {
+            "kana": "コノエ",
+            "kanji": "近衛"
+        },
+        "school": "山海経高級中学校",
+        "club": "玄龍門",
+        "year": 2,
+        "age": 16,
+        "height": 166,
+        "weaponType": "HG",
+        "uniqueWeapon": "玄龍＆白虎",
+        "isPlayable": true
+    },
+    {
+        "id": 106,
+        "firstname": {
+            "kana": "ルミ",
+            "english": "Rumi"
+        },
+        "familyname": {
+            "kana": "アケシロ",
+            "kanji": "朱城"
+        },
+        "school": "山海経高級中学校",
+        "club": "玄武商会",
+        "year": 3,
+        "age": 17,
+        "height": 168,
+        "weaponType": "SMG",
+        "uniqueWeapon": "温故知新",
+        "isPlayable": true
+    },
+    {
+        "id": 107,
+        "firstname": {
+            "kana": "レイジョ",
+            "english": "Reijo"
+        },
+        "familyname": {
+            "kana": "カヤマ",
+            "kanji": "鹿山"
+        },
+        "school": "山海経高級中学校",
+        "club": "玄武商会",
+        "year": 3,
+        "age": 17,
+        "height": 169,
+        "weaponType": "AR",
+        "uniqueWeapon": "明鏡止水",
+        "isPlayable": true
+    },
+    {
+        "id": 108,
+        "firstname": {
+            "kana": "サヤ",
+            "english": "Saya"
+        },
+        "familyname": {
+            "kana": "ヤクシ",
+            "kanji": "薬子"
+        },
+        "school": "山海経高級中学校",
+        "club": "錬丹術研究会",
+        "year": 2,
+        "age": 16,
+        "height": 149,
+        "weaponType": "HG",
+        "uniqueWeapon": "ぼく様特製拳銃",
+        "isPlayable": true
+    },
+    {
+        "id": 109,
+        "firstname": {
+            "kana": "シュン",
+            "english": "Shun"
+        },
+        "familyname": {
+            "kana": "スノハラ",
+            "kanji": "春原"
+        },
+        "school": "山海経高級中学校",
+        "club": "梅花園",
+        "year": 3,
+        "age": null,
+        "height": 174,
+        "weaponType": "SR",
+        "uniqueWeapon": "愛のムチ",
+        "isPlayable": true
+    },
+    {
+        "id": 110,
+        "firstname": {
+            "kana": "ココナ",
+            "english": "Kokona"
+        },
+        "familyname": {
+            "kana": "スノハラ",
+            "kanji": "春原"
+        },
+        "school": "山海経高級中学校",
+        "club": "梅花園",
+        "year": 1,
+        "age": 11,
+        "height": 139,
+        "weaponType": "AR",
+        "uniqueWeapon": "レディーの気品",
+        "isPlayable": true
+    },
+    {
+        "id": 111,
+        "firstname": {
+            "kana": "カグヤ",
+            "english": "Kaguya"
+        },
+        "familyname": {
+            "kana": "ウルシバラ",
+            "kanji": "漆原"
+        },
+        "school": "山海経高級中学校",
+        "club": "京劇部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 112,
+        "firstname": {
+            "kana": "チェリノ",
+            "english": "Cherino"
+        },
+        "familyname": {
+            "kana": "レンカワ",
+            "kanji": "連河"
+        },
+        "school": "レッドウィンター",
+        "club": "レッドウィンター事務局",
+        "year": 3,
+        "age": null,
+        "height": 128,
+        "weaponType": "HG",
+        "uniqueWeapon": "チーストカ",
+        "isPlayable": true
+    },
+    {
+        "id": 113,
+        "firstname": {
+            "kana": "トモエ",
+            "english": "Tomoe"
+        },
+        "familyname": {
+            "kana": "サシロ",
+            "kanji": "佐城"
+        },
+        "school": "レッドウィンター",
+        "club": "レッドウィンター事務局",
+        "year": 3,
+        "age": 17,
+        "height": 165,
+        "weaponType": "SR",
+        "uniqueWeapon": "ヴィエールナシチ",
+        "isPlayable": true
+    },
+    {
+        "id": 114,
+        "firstname": {
+            "kana": "マリナ",
+            "english": "Marina"
+        },
+        "familyname": {
+            "kana": "イケクラ",
+            "kanji": "池倉"
+        },
+        "school": "レッドウィンター",
+        "club": "レッドウィンター事務局",
+        "year": 2,
+        "age": 16,
+        "height": 166,
+        "weaponType": "SMG",
+        "uniqueWeapon": "バラライカ",
+        "isPlayable": true
+    },
+    {
+        "id": 115,
+        "firstname": {
+            "kana": "ノドカ",
+            "english": "Nodoka"
+        },
+        "familyname": {
+            "kana": "アマミ",
+            "kanji": "天見"
+        },
+        "school": "レッドウィンター",
+        "club": "227号特別クラス",
+        "year": 2,
+        "age": 16,
+        "height": 147,
+        "weaponType": "SMG",
+        "uniqueWeapon": "サジタリウスナイト",
+        "isPlayable": true
+    },
+    {
+        "id": 116,
+        "firstname": {
+            "kana": "シグレ",
+            "english": "Shigure"
+        },
+        "familyname": {
+            "kana": "マヨイ",
+            "kanji": "間宵"
+        },
+        "school": "レッドウィンター",
+        "club": "227号特別クラス",
+        "year": 2,
+        "age": 16,
+        "height": 156,
+        "weaponType": "GL",
+        "uniqueWeapon": "スプリングパンチ",
+        "isPlayable": true
+    },
+    {
+        "id": 117,
+        "firstname": {
+            "kana": "メル",
+            "english": "Meru"
+        },
+        "familyname": {
+            "kana": "ヒメキ",
+            "kanji": "姫木"
+        },
+        "school": "レッドウィンター",
+        "club": "知識解放戦線",
+        "year": 2,
+        "age": 16,
+        "height": 137,
+        "weaponType": "HG",
+        "uniqueWeapon": "創作の……苦しみ！",
+        "isPlayable": true
+    },
+    {
+        "id": 118,
+        "firstname": {
+            "kana": "モミジ",
+            "english": "Momiji"
+        },
+        "familyname": {
+            "kana": "アキイズミ",
+            "kanji": "秋泉"
+        },
+        "school": "レッドウィンター",
+        "club": "知識解放戦線",
+        "year": 1,
+        "age": 15,
+        "height": 135,
+        "weaponType": "RL",
+        "uniqueWeapon": "図書館利用規則第7号",
+        "isPlayable": true
+    },
+    {
+        "id": 119,
+        "firstname": {
+            "kana": "ミノリ",
+            "english": "Minori"
+        },
+        "familyname": {
+            "kana": "ヤスモリ",
+            "kanji": "安守"
+        },
+        "school": "レッドウィンター",
+        "club": "工務部",
+        "year": 3,
+        "age": 17,
+        "height": 158,
+        "weaponType": "AR",
+        "uniqueWeapon": "鋼鉄の松明",
+        "isPlayable": true
+    },
+    {
+        "id": 120,
+        "firstname": {
+            "kana": "ヤクモ",
+            "english": "Yakumo"
+        },
+        "familyname": {
+            "kana": "アラマキ",
+            "kanji": "荒槇"
+        },
+        "school": "レッドウィンター",
+        "club": "出版部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 121,
+        "firstname": {
+            "kana": "タカネ",
+            "english": "Takane"
+        },
+        "familyname": {
+            "kana": "ミヨシ",
+            "kanji": "三善"
+        },
+        "school": "レッドウィンター",
+        "club": "出版部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 122,
+        "firstname": {
+            "kana": "ヒロミ",
+            "english": "Hiromi"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "ワイルドハント",
+        "club": "寮監隊",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 123,
+        "firstname": {
+            "kana": "アキラ",
+            "english": "Akira"
+        },
+        "familyname": {
+            "kana": "キヨスミ",
+            "kanji": "清澄"
+        },
+        "school": "ワイルドハント",
+        "club": "寮監隊",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 124,
+        "firstname": {
+            "kana": "エリ",
+            "english": "Eri"
+        },
+        "familyname": {
+            "kana": "シラオ",
+            "kanji": "白尾"
+        },
+        "school": "ワイルドハント",
+        "club": "オカルト研究会",
+        "year": 2,
+        "age": 16,
+        "height": 158,
+        "weaponType": "SR",
+        "uniqueWeapon": "アルカナ・魔法の杖",
+        "isPlayable": true
+    },
+    {
+        "id": 125,
+        "firstname": {
+            "kana": "カノエ",
+            "english": "Kanoe"
+        },
+        "familyname": {
+            "kana": "イタガキ",
+            "kanji": "板垣"
+        },
+        "school": "ワイルドハント",
+        "club": "オカルト研究会",
+        "year": 3,
+        "age": 17,
+        "height": 144,
+        "weaponType": "SG",
+        "uniqueWeapon": "トリスメギストス",
+        "isPlayable": true
+    },
+    {
+        "id": 126,
+        "firstname": {
+            "kana": "ツムギ",
+            "english": "Tsumugi"
+        },
+        "familyname": {
+            "kana": "シイナ",
+            "kanji": "椎名"
+        },
+        "school": "ワイルドハント",
+        "club": "オカルト研究会",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 127,
+        "firstname": {
+            "kana": "レナ",
+            "english": "Rena"
+        },
+        "familyname": {
+            "kana": "キヌイ",
+            "kanji": "衣斐"
+        },
+        "school": "ワイルドハント",
+        "club": "オカルト研究会",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 128,
+        "firstname": {
+            "kana": "ミヨ",
+            "english": "Miyo"
+        },
+        "familyname": {
+            "kana": "サクライ",
+            "kanji": "桜井"
+        },
+        "school": "ワイルドハント",
+        "club": "特殊交易部",
+        "year": 2,
+        "age": 16,
+        "height": 155,
+        "weaponType": "SR",
+        "uniqueWeapon": "キヴォトス・タイプライター",
+        "isPlayable": true
+    },
+    {
+        "id": 129,
+        "firstname": {
+            "kana": "フユ",
+            "english": "Fuyu"
+        },
+        "familyname": {
+            "kana": "ワカサ",
+            "kanji": "若狭"
+        },
+        "school": "ワイルドハント",
+        "club": "特殊交易部",
+        "year": 2,
+        "age": 16,
+        "height": 173,
+        "weaponType": "HG",
+        "uniqueWeapon": "親切な誘い",
+        "isPlayable": true
+    },
+    {
+        "id": 130,
+        "firstname": {
+            "kana": "リツ",
+            "english": "Ritsu"
+        },
+        "familyname": {
+            "kana": "ウスバ",
+            "kanji": "薄葉"
+        },
+        "school": "ワイルドハント",
+        "club": "特殊交易部",
+        "year": 1,
+        "age": 15,
+        "height": 140,
+        "weaponType": "SMG",
+        "uniqueWeapon": "携帯用穿孔機",
+        "isPlayable": true
+    },
+    {
+        "id": 131,
+        "firstname": {
+            "kana": "ヒカリ",
+            "english": "Hikari"
+        },
+        "familyname": {
+            "kana": "タチバナ",
+            "kanji": "橘"
+        },
+        "school": "ハイランダー",
+        "club": "CCC",
+        "year": 1,
+        "age": 15,
+        "height": 147,
+        "weaponType": "HG",
+        "uniqueWeapon": "チケット・パンチ",
+        "isPlayable": true
+    },
+    {
+        "id": 132,
+        "firstname": {
+            "kana": "ノゾミ",
+            "english": "Nozomi"
+        },
+        "familyname": {
+            "kana": "タチバナ",
+            "kanji": "橘"
+        },
+        "school": "ハイランダー",
+        "club": "CCC",
+        "year": 1,
+        "age": 15,
+        "height": 147,
+        "weaponType": "HG",
+        "uniqueWeapon": "デッドリー・スイッチ",
+        "isPlayable": true
+    },
+    {
+        "id": 133,
+        "firstname": {
+            "kana": "スオウ",
+            "english": "Suou"
+        },
+        "familyname": {
+            "kana": "アサギリ",
+            "kanji": "朝霧"
+        },
+        "school": "ハイランダー",
+        "club": "ハイランダー監理室",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 134,
+        "firstname": {
+            "kana": "アオバ",
+            "english": "Aoba"
+        },
+        "familyname": {
+            "kana": "ウツミ",
+            "kanji": "内海"
+        },
+        "school": "ハイランダー",
+        "club": "貨物輸送管理部",
+        "year": 2,
+        "age": 16,
+        "height": 151,
+        "weaponType": "SG",
+        "uniqueWeapon": "半端な期待",
+        "isPlayable": true
+    },
+    {
+        "id": 135,
+        "firstname": {
+            "kana": "シノン",
+            "english": "Shinon"
+        },
+        "familyname": {
+            "kana": "カワル",
+            "kanji": "川流"
+        },
+        "school": "クロノス",
+        "club": "報道部",
+        "year": 1,
+        "age": 15,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 136,
+        "firstname": {
+            "kana": "マイ",
+            "english": "Mai"
+        },
+        "familyname": {
+            "kana": "カザマキ",
+            "kanji": "風巻"
+        },
+        "school": "クロノス",
+        "club": "報道部",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 137,
+        "firstname": {
+            "kana": "連邦生徒会長",
+            "english": "連邦生徒会長"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "連邦生徒会",
+        "club": null,
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 138,
+        "firstname": {
+            "kana": "リン",
+            "english": "Rin"
+        },
+        "familyname": {
+            "kana": "ナナガミ",
+            "kanji": "七神"
+        },
+        "school": "連邦生徒会",
+        "club": "首席行政官",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 139,
+        "firstname": {
+            "kana": "モモカ",
+            "english": "Momoka"
+        },
+        "familyname": {
+            "kana": "ユラキ",
+            "kanji": "由良木"
+        },
+        "school": "連邦生徒会",
+        "club": "交通室",
+        "year": 1,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 140,
+        "firstname": {
+            "kana": "アユム",
+            "english": "Ayumu"
+        },
+        "familyname": {
+            "kana": "イワビツ",
+            "kanji": "岩櫃"
+        },
+        "school": "連邦生徒会",
+        "club": "調停室",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 141,
+        "firstname": {
+            "kana": "カヤ",
+            "english": "Kaya"
+        },
+        "familyname": {
+            "kana": "シラヌイ",
+            "kanji": "不知火"
+        },
+        "school": "連邦生徒会",
+        "club": "防衛室",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 142,
+        "firstname": {
+            "kana": "アオイ",
+            "english": "Aoi"
+        },
+        "familyname": {
+            "kana": "オキ",
+            "kanji": "扇喜"
+        },
+        "school": "連邦生徒会",
+        "club": "財務室",
+        "year": 2,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 143,
+        "firstname": {
+            "kana": "ハイネ",
+            "english": "Haine"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "連邦生徒会",
+        "club": "体育室",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 144,
+        "firstname": {
+            "kana": "スモモ",
+            "english": "Sumomo"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "連邦生徒会",
+        "club": null,
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 145,
+        "firstname": {
+            "kana": "サオリ",
+            "english": "Saori"
+        },
+        "familyname": {
+            "kana": "ジョウマエ",
+            "kanji": "錠前"
+        },
+        "school": "アリウス",
+        "club": "アリウススクワッド",
+        "year": 2,
+        "age": 17,
+        "height": 167,
+        "weaponType": "AR",
+        "uniqueWeapon": "アリウス製アサルトライフル",
+        "isPlayable": true
+    },
+    {
+        "id": 146,
+        "firstname": {
+            "kana": "アツコ",
+            "english": "Atsuko"
+        },
+        "familyname": {
+            "kana": "ハカリ",
+            "kanji": "秤"
+        },
+        "school": "アリウス",
+        "club": null,
+        "year": 1,
+        "age": 15,
+        "height": 158,
+        "weaponType": "SMG",
+        "uniqueWeapon": "スコルピウス",
+        "isPlayable": true
+    },
+    {
+        "id": 147,
+        "firstname": {
+            "kana": "ヒヨリ",
+            "english": "Hiyori"
+        },
+        "familyname": {
+            "kana": "ツチナガ",
+            "kanji": "槌永"
+        },
+        "school": "アリウス",
+        "club": null,
+        "year": 2,
+        "age": 16,
+        "height": 155,
+        "weaponType": "SR",
+        "uniqueWeapon": "アイデンティティ",
+        "isPlayable": true
+    },
+    {
+        "id": 148,
+        "firstname": {
+            "kana": "ミサキ",
+            "english": "Misaki"
+        },
+        "familyname": {
+            "kana": "イマシノ",
+            "kanji": "戒野"
+        },
+        "school": "アリウス",
+        "club": null,
+        "year": 2,
+        "age": 16,
+        "height": 163,
+        "weaponType": "RL",
+        "uniqueWeapon": "セイントプレデター",
+        "isPlayable": true
+    },
+    {
+        "id": 149,
+        "firstname": {
+            "kana": "マイア",
+            "english": "Maia"
+        },
+        "familyname": {
+            "kana": "タチギ",
+            "kanji": "立木"
+        },
+        "school": "アリウス",
+        "club": null,
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 150,
+        "firstname": {
+            "kana": "スバル",
+            "english": "Subaru"
+        },
+        "familyname": {
+            "kana": "カケハシ",
+            "kanji": "梯"
+        },
+        "school": "アリウス",
+        "club": "ニコメディアトゥループ",
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 151,
+        "firstname": {
+            "kana": "カンナ",
+            "english": "Kanna"
+        },
+        "familyname": {
+            "kana": "オガタ",
+            "kanji": "尾刃"
+        },
+        "school": "ヴァルキューレ",
+        "club": "公安局",
+        "year": 3,
+        "age": 17,
+        "height": 166,
+        "weaponType": "HG",
+        "uniqueWeapon": "第17号ヴァルキューレ制式拳銃",
+        "isPlayable": true
+    },
+    {
+        "id": 152,
+        "firstname": {
+            "kana": "キリノ",
+            "english": "Kirino"
+        },
+        "familyname": {
+            "kana": "ナカツカサ",
+            "kanji": "中務"
+        },
+        "school": "ヴァルキューレ",
+        "club": "生活安全局",
+        "year": 1,
+        "age": 15,
+        "height": 161,
+        "weaponType": "HG",
+        "uniqueWeapon": "第3号ヴァルキューレ制式拳銃",
+        "isPlayable": true
+    },
+    {
+        "id": 153,
+        "firstname": {
+            "kana": "フブキ",
+            "english": "Fubuki"
+        },
+        "familyname": {
+            "kana": "ネムガキ",
+            "kanji": "合歓垣"
+        },
+        "school": "ヴァルキューレ",
+        "club": null,
+        "year": 1,
+        "age": 15,
+        "height": 148,
+        "weaponType": "SR",
+        "uniqueWeapon": "第14号ヴァルキューレ制式ライフル",
+        "isPlayable": true
+    },
+    {
+        "id": 154,
+        "firstname": {
+            "kana": "ミヤコ",
+            "english": "Miyako"
+        },
+        "familyname": {
+            "kana": "ツキユキ",
+            "kanji": "月雪"
+        },
+        "school": "SRT",
+        "club": "RABBIT小隊",
+        "year": 1,
+        "age": 15,
+        "height": 156,
+        "weaponType": "SMG",
+        "uniqueWeapon": "RABBIT-31式短機関銃",
+        "isPlayable": true
+    },
+    {
+        "id": 155,
+        "firstname": {
+            "kana": "サキ",
+            "english": "Saki"
+        },
+        "familyname": {
+            "kana": "ソライ",
+            "kanji": "空井"
+        },
+        "school": "SRT",
+        "club": "RABBIT小隊",
+        "year": 1,
+        "age": 15,
+        "height": 161,
+        "weaponType": "MG",
+        "uniqueWeapon": "RABBIT-26式機関銃",
+        "isPlayable": true
+    },
+    {
+        "id": 156,
+        "firstname": {
+            "kana": "モエ",
+            "english": "Moe"
+        },
+        "familyname": {
+            "kana": "カゼクラ",
+            "kanji": "風倉"
+        },
+        "school": "SRT",
+        "club": "RABBIT小隊",
+        "year": 1,
+        "age": 15,
+        "height": 163,
+        "weaponType": "HG",
+        "uniqueWeapon": "RABBIT-224式拳銃",
+        "isPlayable": true
+    },
+    {
+        "id": 157,
+        "firstname": {
+            "kana": "ミユ",
+            "english": "Miyu"
+        },
+        "familyname": {
+            "kana": "カスミザワ",
+            "kanji": "霞沢"
+        },
+        "school": "SRT",
+        "club": "RABBIT小隊",
+        "year": 1,
+        "age": 15,
+        "height": 149,
+        "weaponType": "SR",
+        "uniqueWeapon": "RABBIT-39式小銃",
+        "isPlayable": true
+    },
+    {
+        "id": 158,
+        "firstname": {
+            "kana": "ユキノ",
+            "english": "Yukino"
+        },
+        "familyname": {
+            "kana": "シチド",
+            "kanji": "七度"
+        },
+        "school": "SRT",
+        "club": "FOX小隊",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 159,
+        "firstname": {
+            "kana": "ニコ",
+            "english": "Niko"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "SRT",
+        "club": "FOX小隊",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 160,
+        "firstname": {
+            "kana": "クルミ",
+            "english": "Kurumi"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "SRT",
+        "club": "FOX小隊",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 161,
+        "firstname": {
+            "kana": "オトギ",
+            "english": "Otogi"
+        },
+        "familyname": {
+            "kana": null,
+            "kanji": null
+        },
+        "school": "SRT",
+        "club": "FOX小隊",
+        "year": 3,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 162,
+        "firstname": {
+            "kana": "カイ",
+            "english": "Kai"
+        },
+        "familyname": {
+            "kana": "シンタニ",
+            "kanji": "申谷"
+        },
+        "school": null,
+        "club": null,
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
+    },
+    {
+        "id": 163,
+        "firstname": {
+            "kana": "アケミ",
+            "english": "Akemi"
+        },
+        "familyname": {
+            "kana": "クリハマ",
+            "kanji": "栗浜"
+        },
+        "school": null,
+        "club": null,
+        "year": null,
+        "age": null,
+        "height": null,
+        "weaponType": null,
+        "uniqueWeapon": null,
+        "isPlayable": false
     }
 ]
