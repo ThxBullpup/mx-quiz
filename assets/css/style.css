@@ -22,6 +22,22 @@ body {
 
 #studentFilter{
     font-family: "kosugimaru";
+}
+
+#schoolList{
+    /* フィルターを括る枠 */
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.school{
+    /* チェックボックスと学校を括る枠 */
+    width: 150px;
+    /* margin-bottom: 10px; */
+}
+
+.menu{
     text-align: center;
     vertical-align: middle;
 }
