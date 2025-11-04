@@ -33,20 +33,18 @@ async function filterGenerate(){
         '不明/無し'
     ]
     // チェックボックスにして表示、改行
-    const container = document.getElementById('school');
+    const container = document.getElementById('schoolList');
     let i = 0;
     schools.forEach(schoolName => {
         const filterCheckbox =`
             <label>
-                <input type='checkbox' name='school' value='${schoolName}'>
-                ${schoolName}
+                <div class='school'>
+                    <input type='checkbox' name='school'  value='${schoolName}'>
+                    ${schoolName}
+                </div>
             </label>
         `
         container.innerHTML += filterCheckbox;
-        i += 1;
-        if(i % 3 == 0){
-            container.innerHTML += '<br>';
-        }
     })
 }
 
