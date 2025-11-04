@@ -1,60 +1,67 @@
 @charset "utf-8";
+
 @font-face {
     font-family: "kosugimaru";
     src: url(../font/KosugiMaru-Regular.ttf) format("truetype");
 }
+
 body {
     font-family: "kosugimaru";
     min-height: 100vh;
-    background: linear-gradient(135deg,#1288f8,#00d7fb, white); /*ブルアカっぽいグラデーション*/
+    background: linear-gradient(135deg, #1288f8, #00d7fb, white);/*ブルアカっぽいグラデーション*/
     background-repeat: no-repeat;
 }
 
-.heading{
+.heading {
     text-align: center;
     font-size: 300%;
 }
 
-.faceAndName{
+.faceAndName {
     text-align: center;
     vertical-align: middle;
 }
 
-#studentFilter{
+#studentFilter {
     font-family: "kosugimaru";
+    align-items: center;
+    user-select: none /* 選択を禁止する */
 }
 
-#schoolList{
+#schoolList {
     /* フィルターを括る枠 */
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
+    width: 480px;
+    align-items: center;
 }
 
-.school{
-    /* チェックボックスと学校を括る枠 */
-    width: 150px;
-    /* margin-bottom: 10px; */
+.school {
+    width: 160px;
+    height: 30px;
+    border: 2px solid rgb(119, 199, 253);
+    border-radius: 5px;
+    background-color: rgba(62, 175, 255, 0.507);
 }
 
-.menu{
+.menu {
     text-align: center;
     vertical-align: middle;
 }
 
-#quiz{
+#quiz {
     font-family: "kosugimaru";
     text-align: center;
     vertical-align: middle;
 }
 
-#result{
+#result {
     font-family: "kosugimaru";
     text-align: center;
     vertical-align: middle;
 }
 
-.button{
+.button {
     font-family: "kosugimaru";
     padding: 10px 20px;
     cursor: pointer;

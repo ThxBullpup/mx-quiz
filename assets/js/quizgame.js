@@ -3,7 +3,8 @@ const MXQuiz = {
     choiceStudents : [],
     totalQuestions : 5,
     currentQuestion : 0,
-    score : 0
+    score : 0,
+    allCheckSwitch : false
 }
 
 //htmlの読み込み時に生徒名簿を読み込む関数
@@ -50,11 +51,17 @@ async function filterGenerate(){
 
 //出題される生徒を選ぶ
 function chooseStudent(){
-    const candidateStudents = MXQuiz.allStudents;
-    //出題数ぶん生徒を選んでchoiceStudentsに格納
-    for(let i = 0; i < MXQuiz.totalQuestions; i+=1){
-        MXQuiz.choiceStudents.push(candidateStudents[Math.floor(Math.random() * candidateStudents.length)]);
+    if (MXQuiz.allCheckSwitch === false){
+        const candidateStudents = MXQuiz.allStudents;
+        //出題数ぶん生徒を選んでchoiceStudentsに格納
+        for(let i = 0; i < MXQuiz.totalQuestions; i+=1){
+            MXQuiz.choiceStudents.push(candidateStudents[Math.floor(Math.random() * candidateStudents.length)]);
+        }
+    }else{
+        MXQuiz.choiceStudents = MXQuiz.allStudents;
     }
+
+
 }
 
     //解答を判定する
@@ -65,16 +72,16 @@ function checkAnswer(){
     // 得点
     if (userAnswerElement.value == correctAnswer){
         MXQuiz.score += 1;
-        console.log('正解!!シャーレに+1点')
+        console.log('そういうこった！！')
     }else{
-        console.log('残念!!しっかりしな')
+        console.log('理解できる')
     }
     // テキストボックスをクリア
     userAnswerElement.value =''
     // 問題数を進める
     MXQuiz.currentQuestion += 1;
     // 現在の問題が設定した問題数以下なら継続、規定数を超えたら結果画面へ
-    if (MXQuiz.currentQuestion < MXQuiz.totalQuestions){
+    if ((MXQuiz.currentQuestion < MXQuiz.totalQuestions) || MXQuiz.allCheckSwitch === true){
         displayQuestion();
     }else{
         console.log('result');
@@ -89,7 +96,7 @@ function displayQuestion(){
     const questionCount = `第${MXQuiz.currentQuestion+1}問`;
         container.innerHTML = questionCount; //ループの問題が治ったらインクリメントを代入に変更
     // 選ばれた生徒のIDと名前から使用する画像の名前を生成する
-    const faceImageAddress = `./assets/images/${('0000' + MXQuiz.choiceStudents[MXQuiz.currentQuestion].id).slice( -4 ) + '-' + MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.english}.webp`;//全生徒[選ばれた生徒のID]下の名前の英語
+    const faceImageAddress = `./assets/images/Student_Icon/${MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.english}_Icon.webp`;//全生徒[選ばれた生徒のID]下の名前の英語
     // 画像と名前を置き換え
     const firstNameElement = document.getElementById('firstName');
     const faceImageElement = document.getElementById('faceImage');
@@ -97,7 +104,7 @@ function displayQuestion(){
     // 読み込み失敗時ペロロを表示
     faceImageElement.onerror = function() {
         this.onerror = null;
-        this.src = './assets/images/9999-peroro.webp';
+        this.src = './assets/images/Student_Icon/Peroro_Icon.webp';
     }
     faceImageElement.src = faceImageAddress;
 }
