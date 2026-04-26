@@ -125,7 +125,7 @@ function displayQuestion() {
     const questionCount = `第${MXQuiz.currentQuestion + 1}問`;
     container.innerHTML = questionCount; //ループの問題が治ったらインクリメントを代入に変更
     // 選ばれた生徒のIDと名前から使用する画像の名前を生成する
-    const faceImageAddress = `./assets/images/Student_Icon/${MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.english}_Icon.webp`;//全生徒[選ばれた生徒のID]下の名前の英語
+    const faceImageAddress = `./assets/images/Icon/${MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.english}_Icon.webp`;//全生徒[選ばれた生徒のID]下の名前の英語
     // 画像と名前を置き換え
     const firstNameElement = document.getElementById('firstName');
     const faceImageElement = document.getElementById('faceImage');
