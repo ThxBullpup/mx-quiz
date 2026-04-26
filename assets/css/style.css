@@ -87,6 +87,13 @@ body {
     font-size: 200%;
 }
 
+.Notation{
+        font-family: "kosugimaru";
+    text-align: center;
+    vertical-align: middle;
+    font-size: 75%;
+}
+
 .button {
     font-family: "kosugimaru";
     padding: 10px 20px;
