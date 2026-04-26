@@ -50,16 +50,10 @@ function displayNewQuestion() {
     // デバッグ用: コンソールに正解を表示
     console.log('現在の正解:', currentCharacter.firstname);
 
-    // 画像パスを組み立てる (0000-name.webp 形式)
-    // ※JSONに "imageName": "ayane" のようなキーがある前提
-
-    // const idStr = String(currentCharacter.id).padStart(4, '0');
-    // const nameStr = currentCharacter.imageName; // JSONにこのキーが必要
-    // const imagePath = `images/${idStr}-${nameStr}.webp`;
-
+    // 画像パスを組み立てる
     // --- (もし 0000.webp 形式ならこっち) ---
     const idStr = String(currentCharacter.id).padStart(4, '0');
-    const imagePath = `images/${idStr}.webp`; // 仮に 0000.webp 形式で進めます
+    const imagePath = `images/${idStr}.webp`;
 
     // 画面の要素を取得
     const imageElement = document.getElementById('quiz-image');

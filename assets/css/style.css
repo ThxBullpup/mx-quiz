@@ -24,8 +24,10 @@ body {
 
 #studentFilter {
     font-family: "kosugimaru";
-    align-items: center;
-    user-select: none /* 選択を禁止する */
+    user-select: none; /* 選択を禁止する */
+
+    width: fit-content; /* 箱の幅を中身（480px）に合わせる */
+    margin: 0 auto;     /* 左右の余白を自動計算して、画面の真ん中に配置する */
 }
 
 #schoolList {
@@ -59,6 +61,13 @@ body {
     font-family: "kosugimaru";
     text-align: center;
     vertical-align: middle;
+}
+
+#score {
+    font-family: "kosugimaru";
+    text-align: center;
+    vertical-align: middle;
+    font-size: 200%;
 }
 
 .button {

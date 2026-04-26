@@ -29,6 +29,7 @@ async function filterGenerate() {
         'SRT',
         'ハイランダー',
         'ワイルドハント',
+        `オデュッセイア`,
         'クロノス',
         '連邦生徒会',
         '不明/無し'
@@ -40,7 +41,7 @@ async function filterGenerate() {
         const filterCheckbox = `
             <label>
                 <div class='school'>
-                    <input type='checkbox' name='school'  value='${schoolName}'>
+                    <input type='checkbox' class='school-check' name='school' value='${schoolName}' checked="checked">
                     ${schoolName}
                 </div>
             </label>
@@ -57,6 +58,36 @@ function getSelectedSchools() {
     const selectedSchools = Array.from(checkedBoxes).map(checkbox => checkbox.value);
     return selectedSchools;
 }
+
+/**
+ * 全選択チェックボックスを設定する関数
+ * @param {string} allCheckboxId - 全選択チェックボックスのID
+ * @param {string} itemClassName - 個別チェックボックスのクラス名
+ */
+function setupCheckAll(allCheckboxId, itemClassName) {
+    const checkAll = document.getElementById(allCheckboxId);
+    const itemChecks = document.querySelectorAll('.' + itemClassName);
+
+  // 要素が見つからない場合のエラーを防止
+    if (!checkAll || itemChecks.length === 0) return;
+
+  // ①「すべて選択」をクリックした時に、他の項目を連動させる
+    checkAll.addEventListener('change', function() {
+        itemChecks.forEach(function(item) {
+            item.checked = checkAll.checked;
+        });
+    });
+
+  // ②個別の項目をクリックした時、すべてチェックされたら「すべて選択」もONにする
+    itemChecks.forEach(function(item) {
+        item.addEventListener('change', function() {
+            const isAllChecked = Array.from(itemChecks).every(i => i.checked);
+            checkAll.checked = isAllChecked;
+        });
+    });
+}
+
+
 
 //出題される生徒を選ぶ
 function chooseStudent() {
@@ -96,10 +127,11 @@ function chooseStudent() {
 //解答を判定する
 function checkAnswer() {
     const userAnswerElement = document.getElementById('userAnswer');
-    const correctAnswer = MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.kana;
+    const userAnswerText = toKatakana(userAnswerElement.value)
+    const correctAnswer = MXQuiz.choiceStudents[MXQuiz.currentQuestion].familyname.kana;
 
     // 得点
-    if (userAnswerElement.value == correctAnswer) {
+    if (userAnswerText == correctAnswer) {
         MXQuiz.score += 1;
         console.log('そういうこった！！')
     } else {
@@ -120,6 +152,8 @@ function checkAnswer() {
 
 // クイズ画面の表示
 function displayQuestion() {
+    //デバッグ用に正解を表示
+    console.log('正解は',MXQuiz.choiceStudents[MXQuiz.currentQuestion].familyname.kana)
     // 今何問目か表示
     const container = document.getElementById('questionCounter');
     const questionCount = `第${MXQuiz.currentQuestion + 1}問`;
@@ -133,15 +167,24 @@ function displayQuestion() {
     // 読み込み失敗時ペロロを表示
     faceImageElement.onerror = function () {
         this.onerror = null;
-        this.src = './assets/images/Student_Icon/Peroro_Icon.webp';
+        this.src = './assets/images/Icons/Peroro_Icon.webp';
     }
     faceImageElement.src = faceImageAddress;
+
 }
 
 function toHalfWidth(str) {
     // 全角英数字を半角に変換
     str = str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function (s) {
         return String.fromCharCode(s.charCodeAt(0) - 0xFEE0);
+    });
+    return str;
+}
+
+function toKatakana(str) {
+    // ひらがなをカタカナに変換
+    str = str.replace(/[ぁ-ゔ]/g, function (s) {
+        return String.fromCharCode(s.charCodeAt(0) + 0x0060);
     });
     return str;
 }
@@ -176,6 +219,8 @@ function transitionResult() {
     document.getElementById('studentFilter').style.display = 'none';
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('result').style.display = 'block';
+    const scoreElement = document.getElementById('score');
+    scoreElement.textContent = `${MXQuiz.totalQuestions}問中${MXQuiz.score}問正解！！`
     // はじめの画面に戻るボタン
 }
 
@@ -185,7 +230,10 @@ function initQuiz() {
     document.addEventListener('DOMContentLoaded', async () => {
         await loadStudent();
         await filterGenerate();
-    })
+        setupCheckAll('check-all-school', 'school-check');
+    });
+
+
     //ボタンが押されたら生徒を選ぶ関数へ移動
     document.querySelector('#start').addEventListener('click', transitionQuiz);
     // もう一度のボタンを押すとタイトルへ

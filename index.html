@@ -9,14 +9,16 @@
     <link rel='stylesheet' href='./assets/css/style.css'>
 </head>
 <body>
-    <h1 class='heading'>BlueArchive <br>名字単語帳</h1>
+    <h1 class='heading'>BlueArchive <br>名字クイズ</h1>
 
     <div id='studentFilter' style='display: block;'>
+        <!-- 全選択のチェックボックス -->
+        <label><input type="checkbox" id="check-all-school" checked="checked"> すべて選択 / 解除</label>
         <form id='schoolList' action='#' method='school'>
             <!-- ここに学校名の入ったチェックボックスを生成 -->
         </form>
         <div class='menu'>
-            <input type="text" name="requestedQuestionCount" id="requestedQuestionCount" placeholder="回数を入力">
+            <input type="text" name="requestedQuestionCount" id="requestedQuestionCount" placeholder="回数を入力" value="5">
             <button class='button' id='start'>スタート</button>
         </div>
     </div>
@@ -25,13 +27,14 @@
         <h1 id="questionCounter"></h1>
         <div class='faceAndName'>
             <div id='firstName'>ペロロさま</div>
-            <img id='faceImage' src='./assets/images/Student_Icon/Peroro_Icon.webp' alt='顔写真'>
+            <img id='faceImage' src='./assets/images/Icons/Peroro_Icon.webp' alt='顔写真'>
             <input type='text' name='userAnswer' id='userAnswer'>
             <button id='answerSend'>解答</button>
         </div>
     </div>
 
     <div id='result' style='display: none;'>
+        <div id='score'></div>
         <div class='menu'>
             <button class='button' id='repeat'>もう一度</button>
         </div>
