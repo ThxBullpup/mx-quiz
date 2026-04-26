@@ -13,8 +13,11 @@
 
     <div id='studentFilter' style='display: block;'>
         <!-- 全選択のチェックボックス -->
-        <label><input type="checkbox" id="check-all-school" checked="checked"> すべて選択 / 解除</label>
-        <form id='schoolList' action='#' method='school'>
+        <label class="check-all-label">
+            <input type="checkbox" id="check-all-school" checked="checked"> すべて選択 / 解除
+        </label>
+
+        <form id='schoolList' action='#' method='school'></form>
             <!-- ここに学校名の入ったチェックボックスを生成 -->
         </form>
         <div class='menu'>
@@ -43,6 +46,13 @@
 
     <script src='./assets/js/quizgame.js'></script>
 </body>
+<footer>
+    <div class="disclaimers">
+        <p class="disclaimers_body">
+            <p>本サイトに使用されている画像等の著作権および知的財産権は、株式会社NEXON Games および 株式会社Yostar に帰属します。</p>
+        </p>
+    </div>
+</footer>
 </html>
 
 
