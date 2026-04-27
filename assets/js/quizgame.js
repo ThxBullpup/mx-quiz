@@ -195,9 +195,11 @@ function transitionQuiz() {
     document.getElementById('studentFilter').style.display = 'none';
     document.getElementById('quiz').style.display = 'block';
     document.getElementById('result').style.display = 'none';
-    const requestedQuestionCount = document.getElementById('requestedQuestionCount');
+    // テキストボックスを格納
+    let requestedQuestionCount = document.getElementById('requestedQuestionCount');
     // 全角なら半角に変換して問題数に格納
-    MXQuiz.totalQuestions = toHalfWidth(requestedQuestionCount.value);
+    rawValue = toHalfWidth(requestedQuestionCount.value);
+    MXQuiz.totalQuestions = parseInt(rawValue) || 5; // ||の左側がFalseだったら右の値が入る
     // 出題する生徒を選んでchoiceStudentsに格納
     chooseStudent();
     displayQuestion();

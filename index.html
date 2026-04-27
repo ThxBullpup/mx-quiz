@@ -17,13 +17,14 @@
             <input type="checkbox" id="check-all-school" checked="checked"> すべて選択 / 解除
         </label>
 
-        <form id='schoolList' action='#' method='school'></form>
+        <form id='schoolList' action='#' method='school'>
             <!-- ここに学校名の入ったチェックボックスを生成 -->
         </form>
-        <div class='menu'>
-            <input type="text" name="requestedQuestionCount" id="requestedQuestionCount" placeholder="回数を入力" value="5">
-            <button class='button' id='start'>スタート</button>
-        </div>
+    <div class='menu'>
+        <input type="text" name="requestedQuestionCount" id="requestedQuestionCount" placeholder="問題数を入力">
+        <button class='button' id='start'>スタート</button>
+        <p>未入力で5問出題。<br>問題数が生徒数を上回った場合、生徒数が問題数になります。</p>
+    </div>
     </div>
 
     <div id='quiz' style='display: none;'>
@@ -60,3 +61,5 @@
 
 
 <!-- memo -->
+<!-- 正誤を回答直後とリザルト画面で確認できるようにする -->
+<!-- 実装未実装でフィルタ -->
