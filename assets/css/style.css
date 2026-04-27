@@ -28,6 +28,7 @@ body {
 .faceAndName {
     text-align: center;
     vertical-align: middle;
+    margin: 8px;
 }
 
 #studentFilter {
@@ -94,7 +95,19 @@ body {
     font-family: "kosugimaru";
     text-align: center;
     vertical-align: middle;
+    align-items: center;
+    justify-content: center;
 }
+
+#resultTable{
+    flex: 1;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
 
 #score {
     font-family: "kosugimaru";
