@@ -1,6 +1,8 @@
 const MXQuiz = {
     allStudents: [],
     choiceStudents: [],
+    answerHistory:[],
+    correctHistory:[],
     totalQuestions: 10,
     currentQuestion: 0,
     score: 0,
@@ -127,36 +129,66 @@ function chooseStudent() {
 //解答を判定する
 function checkAnswer() {
     const userAnswerElement = document.getElementById('userAnswer');
-    const userAnswerText = toKatakana(userAnswerElement.value)
+    const userAnswerText = toKatakana(userAnswerElement.value);
     const correctAnswer = MXQuiz.choiceStudents[MXQuiz.currentQuestion].familyname.kana;
-
+    MXQuiz.answerHistory.push(userAnswerText); //解答を保存
+    let isCorrect = false;
     // 得点
     if (userAnswerText == correctAnswer) {
         MXQuiz.score += 1;
         console.log('そういうこった！！')
+        MXQuiz.correctHistory.push('◯')
+        isCorrect = true
     } else {
         console.log('理解できる')
+        MXQuiz.correctHistory.push('☓')
+        isCorrect = false
     }
     // テキストボックスをクリア
     userAnswerElement.value = ''
     // 問題数を進める
     MXQuiz.currentQuestion += 1;
+    // 正誤判定結果画面へ
+    answerReaction(isCorrect,correctAnswer);
+}
+// 正解が不正解かを表示
+function answerReaction(isCorrect,correctAnswer){
+    const systemReaction = document.getElementById('reaction');
+    if (isCorrect === true){
+        console.log('dekiteru~')
+        systemReaction.textContent = '正解！'
+    }
+    else{
+        systemReaction.textContent = ('残念！正解は"'+ correctAnswer +'"でした')
+    }
+    document.getElementById('answerReaction').style.display = 'block';
+    document.getElementById('answerandSend').style.display = 'none';
     // 現在の問題が設定した問題数以下なら継続、規定数を超えたら結果画面へ
+    const nextButton = document.getElementById('nextQuestion');
     if ((MXQuiz.currentQuestion < MXQuiz.totalQuestions) || MXQuiz.allCheckSwitch === true) {
-        displayQuestion();
+        console.log('next');
+        nextButton.textContent = '次の問題';
     } else {
         console.log('result');
-        transitionResult();
+        nextButton.textContent = '結果を見る';
     }
 }
 
+
 // クイズ画面の表示
 function displayQuestion() {
+    if (MXQuiz.currentQuestion >= MXQuiz.totalQuestions && MXQuiz.allCheckSwitch === false) {
+        console.log('result');
+        transitionResult(); // 結果画面へ推移
+        return; // ここで処理を終わらせて、下の問題表示処理をストップする
+    }
+    document.getElementById('answerReaction').style.display = 'none';
+    document.getElementById('answerandSend').style.display = 'block';
     //デバッグ用に正解を表示
     console.log('正解は',MXQuiz.choiceStudents[MXQuiz.currentQuestion].familyname.kana)
     // 今何問目か表示
     const container = document.getElementById('questionCounter');
-    const questionCount = `第${MXQuiz.currentQuestion + 1}問`;
+    const questionCount = `${MXQuiz.currentQuestion + 1}/${MXQuiz.totalQuestions}`;
     container.innerHTML = questionCount; //ループの問題が治ったらインクリメントを代入に変更
     // 選ばれた生徒のIDと名前から使用する画像の名前を生成する
     const faceImageAddress = `./assets/images/Icons/${MXQuiz.choiceStudents[MXQuiz.currentQuestion].firstname.english}_Icon.webp`;//全生徒[選ばれた生徒のID]下の名前の英語
@@ -205,17 +237,6 @@ function transitionQuiz() {
     displayQuestion();
 }
 
-// タイトル画面に戻る
-function transitionTitle() {
-    document.getElementById('studentFilter').style.display = 'block';
-    document.getElementById('quiz').style.display = 'none';
-    document.getElementById('result').style.display = 'none';
-    // 変数を初期化
-    MXQuiz.choiceStudents = []
-    MXQuiz.currentQuestion = 0
-    MXQuiz.score = 0
-}
-
 // 結果画面に推移する
 function transitionResult() {
     document.getElementById('studentFilter').style.display = 'none';
@@ -223,7 +244,35 @@ function transitionResult() {
     document.getElementById('result').style.display = 'block';
     const scoreElement = document.getElementById('score');
     scoreElement.textContent = `${MXQuiz.totalQuestions}問中${MXQuiz.score}問正解！！`
-    // はじめの画面に戻るボタン
+    console.log(MXQuiz.choiceStudents)
+    // MXQuiz.answerHistory.forEach((answer) => console.log(answer + 'aaa'));
+    const container = document.getElementById('history');
+    for (let i = 0; i < MXQuiz.totalQuestions; i++){
+        const errata =`
+        <tr>
+        <th scope="row">${i+1}</th>
+        <td>${MXQuiz.choiceStudents[i].familyname.kana}</td>
+        <td>${MXQuiz.answerHistory[i]}</td>
+        <td>${MXQuiz.correctHistory[i]}</td>
+        </tr>
+    `
+    container.innerHTML += errata;
+    }
+}
+
+
+// タイトル画面に戻る
+function transitionTitle() {
+    document.getElementById('studentFilter').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none';
+    document.getElementById('result').style.display = 'none';
+    // 変数を初期化
+    MXQuiz.choiceStudents = []
+    MXQuiz.answerHistory = []
+    MXQuiz.correctHistory = []
+    MXQuiz.currentQuestion = 0
+    MXQuiz.score = 0
+    document.getElementById('history').innerHTML = '';
 }
 
 // 初期化する処理（一回だけ実行する）
@@ -242,6 +291,8 @@ function initQuiz() {
     document.querySelector('#repeat').addEventListener('click', transitionTitle);
     //解答ボタンを押すと正誤判定関数へ移動
     document.querySelector('#answerSend').addEventListener('click', checkAnswer);
+    //次へボタンを押すと次の問題へ
+    document.querySelector('#nextQuestion').addEventListener('click', displayQuestion);
 }
 
 initQuiz();

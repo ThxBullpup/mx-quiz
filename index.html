@@ -31,20 +31,56 @@
         <h1 id="questionCounter"></h1>
         <div class='faceAndName'>
             <div id='firstName'>ペロロさま</div>
-            <img id='faceImage' src='./assets/images/Icons/Peroro_Icon.webp' alt='顔写真'>
-            <input type='text' name='userAnswer' id='userAnswer'>
-            <button id='answerSend'>解答</button>
+            <img id='faceImage' src='./assets/images/Icons/Peroro_Icon.webp' alt='顔写真'><br>
         </div>
+        <div id="answerandSend">
+            <div class="answer">
+                <input type='text' name='userAnswer' id='userAnswer'><br>
+            </div>
+            <div class="send" style="display: block;">
+                <button id='answerSend'>解答</button>
+            </div>
+        </div>
+        <div id="answerReaction" style="display: none;">
+            <div id="reaction">
+                ここに結果を表示する
+            </div>
+            <div class="next">
+                <button id="nextQuestion">次の問題</button>
+            </div>
+        </div>
+
         <div class="Notation">
             <p>生徒の名字をひらがな又はカタカナで入力してください。</p>
         </div>
     </div>
 
     <div id='result' style='display: none;'>
-        <div id='score'></div>
+        <div id='score'>
+        </div>
+
         <div class='menu'>
             <button class='button' id='repeat'>もう一度</button>
         </div>
+
+        <table id="resultTable">
+            <caption>
+                結果
+            </caption>
+            <thead>
+                <tr>
+                <th scope="col">問題</th>
+                <th scope="col">正解</th>
+                <th scope="col">あなたの解答</th>
+                <th scope="col">正誤</th>
+                </tr>
+            </thead>
+            <tbody id='history'>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+
     </div>
 
 
